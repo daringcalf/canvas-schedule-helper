@@ -1,0 +1,174 @@
+CSE 598 Introduction to Deep Learning in Visual Computing
+
+Module / Lecture / Video                                                    | Type     | Duration  
+-------------------------------------------------------------------------------------------------
+Module 1: Introduction to Learning Systems and Prerequisites                | Module   | 01:39:01  
+  Lecture 1: Deep Learning and Its Applications                             | Lecture  | 00:25:09  
+    Video 1: Paradigms and Applications                                     | Video    | 00:07:26  
+    Video 2: Why is Deep Learning Popular?                                  | Video    | 00:09:56  
+    Video 3: Deep Learning in Computer Vision                               | Video    | 00:07:47  
+  Lecture 2: Review of Essential Prerequisite - Probability                 | Lecture  | 00:43:37  
+    Video 1: Probability - Prerequisites- Basics of Probability             | Video    | 00:09:22  
+    Video 2: Probability - Prerequisites- Basics of Probability             | Video    | 00:09:22  
+    Video 3: Probability - Probability Review - Discrete Example            | Video    | 00:04:51  
+    Video 4: Probability - Probability Review - Discrete Example            | Video    | 00:04:51  
+    Video 5: Probability - Probability Review -Information, Entropy, Kullback-Leibler Divergence | Video    | 00:15:10  
+  Lecture 3: Review of Essential Prerequisites - Gaussian Distribution      | Lecture  | 00:17:22  
+    Video 1: Gaussian Distribution - 2D Gaussian Examples                   | Video    | 00:04:19  
+    Video 2: Gaussian Distribution - Prerequisites - Gaussian Distributions | Video    | 00:08:43  
+    Video 3: Gaussian Distribution - 2D Gaussian Examples                   | Video    | 00:04:19  
+  Lecture 4: Review of Essential Prerequisites - Differentiation            | Lecture  | 00:12:51  
+    Video 1: Differentiation - Prerequisites - Matrix Diffrentiation        | Video    | 00:12:51  
+-------------------------------------------------------------------------------------------------
+Module 2: Linear Models                                                     | Module   | 03:53:14  
+  Lecture 1: Linear Regression                                              | Lecture  | 00:19:01  
+    Video 1: Introduction to Linear Regression                              | Video    | 00:06:01  
+    Video 2: Linear Regression Formalization                                | Video    | 00:13:00  
+  Lecture 2: Vectorization and Optimization                                 | Lecture  | 00:35:21  
+    Video 1: Gradient and Optimal Solution                                  | Video    | 00:06:23  
+    Video 2: Least Squares - Closed Form Solution                           | Video    | 00:15:35  
+    Video 3: Linear Regression Solution                                     | Video    | 00:13:21  
+  Lecture 3: Maximum Likelihood                                             | Lecture  | 00:30:16  
+    Video 1: Linear Regression Maximum Likelihood                           | Video    | 00:13:22  
+    Video 2: Squared Loss vs Likelihood                                     | Video    | 00:06:12  
+    Video 3: Maximum Likelihood Estimate for Gamma Squared                  | Video    | 00:10:42  
+  Lecture 4: Ridge Regression and Constrained Optimization                  | Lecture  | 00:27:25  
+    Video 1: Maximum a Posteriori Interpretation                            | Video    | 00:07:45  
+    Video 2: Ridge Regression and Constrained Optimization                  | Video    | 00:08:09  
+    Video 3: Ridge Regression                                               | Video    | 00:11:30  
+  Lecture 5: Nonlinear Regression and Cross Validation                      | Lecture  | 00:24:30  
+    Video 1: Nonlinear Regression                                           | Video    | 00:08:05  
+    Video 2: Ridge Regression with Polynomials                              | Video    | 00:05:52  
+    Video 3: Estimating with Cross Validation                               | Video    | 00:10:32  
+  Lecture 6: Binary Classification and Logistic Neuron                      | Lecture  | 00:45:17  
+    Video 1: Binary Classification - Notation                               | Video    | 00:07:40  
+    Video 2: Biological vs Logistic Neuron                                  | Video    | 00:05:43  
+    Video 3: Logistic Unit-1                                                | Video    | 00:07:09  
+    Video 4: Least Squared Loss-1                                           | Video    | 00:15:56  
+    Video 5: Gradient Descent for Logistic Regression-1                     | Video    | 00:08:47  
+  Lecture 7: Logistic Regression                                            | Lecture  | 00:51:22  
+    Video 1: Gradient Descent (m) -samples                                  | Video    | 00:11:34  
+    Video 2: Gradient Propagation - Chain Rule                              | Video    | 00:13:15  
+    Video 3: Logistic Regression (m) - Samples Part 2                       | Video    | 00:08:59  
+    Video 4: Logistic Regression (m) - Samples                              | Video    | 00:08:44  
+    Video 5: Vectorizing Logistic Regression                                | Video    | 00:08:47  
+-------------------------------------------------------------------------------------------------
+Module 3: Multi-Layer Neural Networks                                       | Module   | 02:39:58  
+  Lecture 1: Layers, Activations, and Notation                              | Lecture  | 00:40:59  
+    Video 1: Activations for a sample x - Layer 1                           | Video    | 00:09:20  
+    Video 2: Multilayer Neural Networks                                     | Video    | 00:08:11  
+    Video 3: Multilayer Neural Networks - Notation                          | Video    | 00:06:34  
+    Video 4: Activations for a sample x - Layer 1                           | Video    | 00:09:20  
+    Video 5: Vectorization and Matrix Dimensions                            | Video    | 00:07:32  
+  Lecture 2: Activation Functions                                           | Lecture  | 00:19:55  
+    Video 1: Need for Nonlinear Activations                                 | Video    | 00:05:56  
+    Video 2: Activation Functions                                           | Video    | 00:13:58  
+  Lecture 3: Forward and Back Propagation                                   | Lecture  | 00:30:34  
+    Video 1: Forward and Back Propagation                                   | Video    | 00:08:34  
+    Video 2: Back Propagation                                               | Video    | 00:15:15  
+    Video 3: Back Propagation Part 2                                        | Video    | 00:06:43  
+  Lecture 4: Modular Layer                                                  | Lecture  | 00:16:42  
+    Video 1: Modular Layer                                                  | Video    | 00:09:26  
+    Video 2: Forward-backward 3 layer net example                           | Video    | 00:07:16  
+  Lecture 5: Softmax and Cross-Entropy Loss                                 | Lecture  | 00:21:44  
+    Video 1: Entropy Loss - Softmax Activation                              | Video    | 00:13:07  
+    Video 2: Entropy Loss - Softmax Activation - Multiclass                 | Video    | 00:08:37  
+  Lecture 6: Derivatives for Softmax and Cross-Entropy Loss                 | Lecture  | 00:30:02  
+    Video 1: Entropy Loss - Cross-entropy Derivative Example                | Video    | 00:05:11  
+    Video 2: Entropy Loss - Cross-entropy Loss                              | Video    | 00:08:40  
+    Video 3: Entropy Loss - KL-divergence and Cross-entropy                 | Video    | 00:10:59  
+    Video 4: Entropy Loss - Cross-entropy Derivative Example                | Video    | 00:05:11  
+-------------------------------------------------------------------------------------------------
+Module 4: Optimization                                                      | Module   | 02:11:06  
+  Lecture 1: Batch, Mini-Batch, and Stochastic Gradient Descent             | Lecture  | 00:16:15  
+    Video 1: Batch, and Stochastic Gradient Descent - Gradient Descent      | Video    | 00:09:55  
+    Video 2: Batch, and Stochastic Gradient Descent - Effect of Batch Size  | Video    | 00:06:20  
+  Lecture 2: Weight Initialization                                          | Lecture  | 00:17:04  
+    Video 1: Weight Initialization                                          | Video    | 00:10:04  
+    Video 2: Parameter Initialization                                       | Video    | 00:07:00  
+  Lecture 3: Data Normalization                                             | Lecture  | 00:23:26  
+    Video 1: Intuition Behind Normalization                                 | Video    | 00:04:14  
+    Video 2: Normalization                                                  | Video    | 00:14:56  
+    Video 3: Intuition Behind Normalization                                 | Video    | 00:04:14  
+  Lecture 4: Regularization                                                 | Lecture  | 00:22:55  
+    Video 1: Regularization                                                 | Video    | 00:08:41  
+    Video 2: Dropout Regularization                                         | Video    | 00:09:39  
+    Video 3: Dropout Implementation                                         | Video    | 00:04:34  
+  Lecture 5: Momentum                                                       | Lecture  | 00:00:00  
+  Lecture 6: Batch Norm                                                     | Lecture  | 00:16:04  
+    Video 1: Batch Norm                                                     | Video    | 00:07:55  
+    Video 2: Role of Batch Norm                                             | Video    | 00:08:08  
+  Lecture 7: Learning Rate                                                  | Lecture  | 00:25:05  
+    Video 1: Learning Rate                                                  | Video    | 00:11:00  
+    Video 2: Newton's Method Finding Zeros                                  | Video    | 00:14:04  
+  Lecture 8: Hyperparameter Tuning                                          | Lecture  | 00:10:14  
+    Video 1: Coarse to Fine Search and Range                                | Video    | 00:05:28  
+    Video 2: Hyperparameter Tuning                                          | Video    | 00:04:45  
+-------------------------------------------------------------------------------------------------
+Module 5: Convolutional Neural Networks                                     | Module   | 02:08:15  
+  Lecture 1: Image Filters and Features                                     | Lecture  | 00:19:23  
+    Video 1: Edge Detection - Prewitt Filter                                | Video    | 00:12:17  
+    Video 2: Image Filters                                                  | Video    | 00:07:05  
+  Lecture 2: Convolutional Layer - Stride, Pad                              | Lecture  | 00:21:32  
+    Video 1: Stride, Pad - Convolution Layer                                | Video    | 00:09:06  
+    Video 2: Stride, Pad - Convolution Filter                               | Video    | 00:07:59  
+    Video 3: Stride, Pad - Multiple Convolutioh Features                    | Video    | 00:04:27  
+  Lecture 3: Padding                                                        | Lecture  | 00:19:54  
+    Video 1: Padding                                                        | Video    | 00:09:37  
+    Video 2: Generic CNN Layer                                              | Video    | 00:10:16  
+  Lecture 4: Classic CNN Examples                                           | Lecture  | 00:24:07  
+    Video 1: Classic CNNs                                                   | Video    | 00:09:38  
+    Video 2: AlexNet                                                        | Video    | 00:06:15  
+    Video 3: VGG-16-1                                                       | Video    | 00:08:13  
+  Lecture 5: Modern CNN Examples                                            | Lecture  | 00:32:36  
+    Video 1: Residual Layer Network (ResNet)                                | Video    | 00:09:31  
+    Video 2: Modern CNNs                                                    | Video    | 00:13:34  
+    Video 3: Residual Layer Network (ResNet)                                | Video    | 00:09:31  
+  Lecture 6: CNN Implementation and Analysis                                | Lecture  | 00:10:41  
+    Video 1: Deep Networks Comparison                                       | Video    | 00:10:41  
+-------------------------------------------------------------------------------------------------
+Module 6: Unsupervised Learning - Generative Models                         | Module   | 02:53:02  
+  Lecture 1: Autoencoders                                                   | Lecture  | 00:39:25  
+    Video 1: PCA vs Autoencoder                                             | Video    | 00:12:17  
+    Video 2: Autoencoders                                                   | Video    | 00:06:27  
+    Video 3: PCA vs Autoencoder                                             | Video    | 00:12:17  
+    Video 4: Deep Autoencoders                                              | Video    | 00:08:23  
+  Lecture 2: Sparse, Denoising, and Stacked Autoencoders                    | Lecture  | 00:23:27  
+    Video 1: Sparse Autoencoder                                             | Video    | 00:12:07  
+    Video 2: Denoising Autoencoder                                          | Video    | 00:03:16  
+    Video 3: Stacked Autoencoders                                           | Video    | 00:08:03  
+  Lecture 3: Autoregressive Models                                          | Lecture  | 00:21:01  
+    Video 1: Autoregressive Models                                          | Video    | 00:10:30  
+    Video 2: Autoregressive Models - PixelRNN                               | Video    | 00:10:30  
+  Lecture 4: Variational Autoencoders                                       | Lecture  | 00:50:50  
+    Video 1: Revisit Autoencoders                                           | Video    | 00:08:28  
+    Video 2: Revisit Autoencoders                                           | Video    | 00:08:28  
+    Video 3: VAE Examples - SCAN                                            | Video    | 00:08:27  
+    Video 4: Variational Autoencoders (VAE) Part 2                          | Video    | 00:07:10  
+    Video 5: Variational Autoencoders (VAE) Part 3                          | Video    | 00:05:46  
+    Video 6: Variational Autoencoders (VAE)                                 | Video    | 00:12:27  
+  Lecture 5: Generative Adversarial Networks (GANs)                         | Lecture  | 00:38:17  
+    Video 1: Generative Adversarial Networks (GANs)                         | Video    | 00:08:49  
+    Video 2: GAN Training                                                   | Video    | 00:11:49  
+    Video 3: GAN Examples - InfoGAN                                         | Video    | 00:08:47  
+    Video 4: GAN Examples - Pro(gressive) GAN                               | Video    | 00:08:51  
+-------------------------------------------------------------------------------------------------
+Module 7: Transfer Learning                                                 | Module   | 01:53:38  
+  Lecture 1: Transfer Learning Paradigms                                    | Lecture  | 00:21:34  
+    Video 1: Transfer Learning Paradigms                                    | Video    | 00:10:13  
+    Video 2: Domain Adaptation Paradigm                                     | Video    | 00:11:21  
+  Lecture 2: Shallow Domain Adaptation                                      | Lecture  | 00:17:17  
+    Video 1: Linear Feature Spaces DA                                       | Video    | 00:06:28  
+    Video 2: Nonlinear Feature Spaces DA                                    | Video    | 00:10:48  
+  Lecture 3: Deep Features Domain Adaptation                                | Lecture  | 00:20:27  
+    Video 1: Deep Feature Spaces                                            | Video    | 00:10:35  
+    Video 2: Naive Deep Transfer Models                                     | Video    | 00:09:52  
+  Lecture 4: Feature Alignment                                              | Lecture  | 00:29:07  
+    Video 1: MMD Based Alignment                                            | Video    | 00:11:03  
+    Video 2: Wasserstein Measure                                            | Video    | 00:07:41  
+    Video 3: Wasserstein Distance Based Alignment                           | Video    | 00:10:22  
+  Lecture 5: Image Alignment                                                | Lecture  | 00:25:11  
+    Video 1: Pixel - Domain Adaptation                                      | Video    | 00:07:02  
+    Video 2: Domain Transfer Network                                        | Video    | 00:09:09  
+    Video 3: CyCADA - Cycle Consistent Adversarial DA                       | Video    | 00:08:59  
+-------------------------------------------------------------------------------------------------
