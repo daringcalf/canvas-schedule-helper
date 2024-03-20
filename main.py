@@ -14,7 +14,9 @@ def parse_course_page(course_page_html):
 
     for module_div in soup.find_all("div", class_="item-group-condensed"):
         media_guide_a = module_div.find(
-            "a", title=lambda x: x and x.startswith("Media Guide")
+            "a",
+            title=lambda x: x
+            and (x.startswith("Media Guide") or x.endswith("Media Guide")),
         )
         # if no media guide then it's not a module with lectures
         if media_guide_a is None:
@@ -97,7 +99,8 @@ def parse_lecture_page(lecture_page_html):
             continue
 
         title = ".".join(full_title.split(".")[:-1])
-        title = title.replace("_Transcripts", "").replace("_Transcript", "")
+
+        title = title.replace("_Transcripts", "").replace("_Transcript", "").replace("_Transcipt", "").replace("_transcripts", "").replace("_transcript", "")
 
         link = transcript_a["href"]
         download_url = link.split("?")[0] + download_suffix
