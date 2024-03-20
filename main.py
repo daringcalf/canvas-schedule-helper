@@ -92,8 +92,12 @@ def parse_lecture_page(lecture_page_html):
     for transcript_a in soup.find_all("a", class_="instructure_file_link"):
         full_title = transcript_a["title"]
         transcript_type = full_title.split(".")[-1]
-        # title = ".".join(full_title.split(".")[:-1])
-        title = ".".join(full_title.split(".")[:-1]).split("-", 1)[1].strip()
+
+        if transcript_type not in ["srt", "vtt"]:
+            continue
+
+        title = ".".join(full_title.split(".")[:-1])
+        title = title.replace("_Transcripts", "").replace("_Transcript", "")
 
         link = transcript_a["href"]
         download_url = link.split("?")[0] + download_suffix
@@ -124,7 +128,7 @@ def parse_last_timestamp(file_content, file_type):
         # VTT timestamp format: 00:01:22.000 --> 00:01:24.400
         time_pattern = re.compile(r"\d{2}:\d{2}:\d{2}\.\d{3}")
     else:
-        raise ValueError("Unknown file type.")
+        raise ValueError(f"Unknown file type: {file_type}")
 
     timestamps = time_pattern.findall(file_content)
     if not timestamps:
@@ -215,7 +219,7 @@ def main():
     course_id = args.get("course_id")
     cookies = args.get("cookies")
 
-    course_url = f'https://canvas.asu.edu/courses/{course_id}/modules'
+    course_url = f"https://canvas.asu.edu/courses/{course_id}/modules"
 
     if not course_url or not cookies:
         sys.exit("Usage: python main.py course_url='https://...' cookies='...'")
