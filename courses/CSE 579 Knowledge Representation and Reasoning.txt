@@ -1,0 +1,169 @@
+CSE 579 Knowledge Representation and Reasoning
+
+Module / Lecture / Video                                                    | Type     | Duration  
+-------------------------------------------------------------------------------------------------
+Module 1: Introduction to KRR                                               | Module   | 02:13:57  
+  Lecture 1: Different Kinds of Reasoning Problems                          | Lecture  | 00:22:49  
+    Video 1: Different Kinds of Reasoning Problems The Role of Formal Logic | Video    | 00:07:39  
+    Video 2: Different Kinds of Reasoning Problems Model Finding and Satisfiability | Video    | 00:05:33  
+    Video 3: Different Kinds of Reasoning Problems Default Reasoning        | Video    | 00:09:36  
+  Lecture 2: Introduction to Propositional Logic - Part II                  | Lecture  | 01:18:16  
+    Video 1: Propositional Logic and Knowledge Representation-1             | Video    | 00:10:00  
+    Video 2: Computing Propositional Logic DPLL Algorithm                   | Video    | 00:34:55  
+    Video 3: Computing Propositional Logic Unit Propagation and Applying DPLL | Video    | 00:33:20  
+  Lecture 3: Introduction to Leading Voices from the Field                  | Lecture  | 00:32:50  
+    Video 1: KRR Overview with Vladimir Lifschitz                           | Video    | 00:11:46  
+    Video 2: Interview with Torsten Schaub                                  | Video    | 00:09:27  
+    Video 3: Interview with Ian Horrocks                                    | Video    | 00:11:36  
+-------------------------------------------------------------------------------------------------
+Module 2: First-Order Logic and Knowledge Representation                    | Module   | 02:18:08  
+  Lecture 1: Introduction to First-Order Logic                              | Lecture  | 00:20:15  
+    Video 1: Introduction to First-Order Logic - Part 1                     | Video    | 00:13:07  
+    Video 2: Introduction to First-Order Logic - Part 2                     | Video    | 00:07:08  
+  Lecture 2: Syntax of First-Order Logic                                    | Lecture  | 00:37:45  
+    Video 1: Syntax of First-Order Logic Formula Components                 | Video    | 00:12:05  
+    Video 2: Syntax of First-Order Logic Bound and Free Variables           | Video    | 00:07:30  
+    Video 3: Syntax of First-Order Logic Exercises                          | Video    | 00:18:10  
+  Lecture 3: Semantics of First-Order Logic                                 | Lecture  | 00:38:47  
+    Video 1: Semantics of First-Order Logic                                 | Video    | 00:38:47  
+  Lecture 4: Representing Knowledge in First-Order Logic                    | Lecture  | 00:20:15  
+    Video 1: Introduction to First-Order Logic - Part 1-1                   | Video    | 00:13:07  
+    Video 2: Introduction to First-Order Logic - Part 2-1                   | Video    | 00:07:08  
+  Lecture 5: Herbrand Models                                                | Lecture  | 00:21:03  
+    Video 1: Herbrand Models - Part 1                                       | Video    | 00:11:52  
+    Video 2: Herbrand Models - Part 2                                       | Video    | 00:09:11  
+-------------------------------------------------------------------------------------------------
+Module 3: Theory of Answer Set Programming                                  | Module   | 03:29:35  
+  Lecture 1: Introduction to Answer Set Programming                         | Lecture  | 00:14:20  
+    Video 1: Introduction to Answer Set Programming                         | Video    | 00:14:20  
+  Lecture 2: Stable Models of Definite/Positive Programs                    | Lecture  | 00:29:21  
+    Video 1: General Introduction                                           | Video    | 00:07:41  
+    Video 2: Minimal Models with Exercises                                  | Video    | 00:06:40  
+    Video 3: Minimal Models with Exercises-1                                | Video    | 00:06:40  
+    Video 4: Stable Models of Definite Programs                             | Video    | 00:04:52  
+    Video 5: Stable Models of Positive Programs                             | Video    | 00:03:26  
+  Lecture 3: Definite/Positive Programs in the Language of Clingo           | Lecture  | 00:27:54  
+    Video 1: Definite Positive Programs in the Language of Clingo - Part 1  | Video    | 00:18:32  
+    Video 2: Definite Positive Programs in the Language of Clingo - Part 2  | Video    | 00:09:21  
+  Lecture 4: Definite/Positive Programs in the Language of Clingo Allowing Intervals | Lecture  | 00:19:46  
+    Video 1: Definite Positive Programs in the Language of Clingo Allowing Intervals - Part 1 | Video    | 00:13:28  
+    Video 2: Definite Positive Programs in the Language of Clingo Allowing Intervals - Part 2 | Video    | 00:06:18  
+  Lecture 5: More About Clingo Programs                                     | Lecture  | 00:31:35  
+    Video 1: More about clingo Programs clingo Directives                   | Video    | 00:05:59  
+    Video 2: More about clingo Programs Arithmetic in clingo                | Video    | 00:06:07  
+    Video 3: More about clingo Programs Exercises                           | Video    | 00:03:59  
+    Video 4: More about clingo Programs Definitions Related to Arithmetic   | Video    | 00:15:28  
+  Lecture 6: Negation as Failure                                            | Lecture  | 01:26:37  
+    Video 1: Negation as Failure Informal Introduction                      | Video    | 00:18:53  
+    Video 2: Negation as Failure Theory Core Concepts                       | Video    | 00:19:20  
+    Video 3: Negation as Failure Theory Examples and Exercises              | Video    | 00:18:33  
+    Video 4: Negation as Failure Theory Types of Models                     | Video    | 00:05:38  
+    Video 5: Negation as Failure Theory Examples and Exercises-1            | Video    | 00:18:33  
+    Video 6: Negation as Failure Theory Types of Models-1                   | Video    | 00:05:38  
+-------------------------------------------------------------------------------------------------
+Module 4: Practice of Answer Set Programming                                | Module   | 04:13:03  
+  Lecture 1: Choice Rules and Constraints                                   | Lecture  | 00:37:41  
+    Video 1: Choice Rules and Constraints Choice Rules with Exercises       | Video    | 00:13:53  
+    Video 2: Choice Rules and Constraints Cardinality Bounds and Variables with Exercises | Video    | 00:14:40  
+    Video 3: Choice Rules and Constraints Constraints with Exercises        | Video    | 00:09:07  
+  Lecture 2: Methodology and Answer Set Programming                         | Lecture  | 00:42:34  
+    Video 1: Methodology of Answer Set Programming Generate-(Define)-Test Method | Video    | 00:20:32  
+    Video 2: Methodology of Answer Set Programming Schur Numbers            | Video    | 00:22:02  
+  Lecture 3: Representing Functions in ASP                                  | Lecture  | 00:25:32  
+    Video 1: Representing Functions in ASP Understanding Functions          | Video    | 00:07:38  
+    Video 2: Representing Functions in ASP One-to-One (1-1) Function        | Video    | 00:04:34  
+    Video 3: Representing Functions in ASP Onto Function                    | Video    | 00:08:31  
+    Video 4: Representing Functions in ASP Onto Functions in ASP and 1-1 Correspondence | Video    | 00:04:48  
+  Lecture 4: Combinatorial Search                                           | Lecture  | 00:23:01  
+    Video 1: Combinatorial Search Seating Arrangement Problem               | Video    | 00:11:07  
+    Video 2: Combinatorial Search Logic Puzzle                              | Video    | 00:11:54  
+  Lecture 5: Graph Problems in ASP                                          | Lecture  | 00:41:10  
+    Video 1: Graph Problems in ASP I Graph Coloring Problem                 | Video    | 00:13:58  
+    Video 2: Graph Problems in ASP I Clique                                 | Video    | 00:08:14  
+    Video 3: Graph Problems in ASP II Vertex Cover Problem                  | Video    | 00:09:38  
+    Video 4: Graph Problems in ASP II Hamiltonian Cycle                     | Video    | 00:09:19  
+  Lecture 6: Elaborations of Sudoku Puzzle                                  | Lecture  | 00:42:47  
+    Video 1: Elaborations of Sudoku Puzzle Solving by Hand                  | Video    | 00:10:39  
+    Video 2: Elaborations of Sudoku Puzzle Solving with ASP_Trancript       | Video    | 00:19:09  
+    Video 3: Elaborations of Sudoku Puzzle Elaboration Tolerance and Variations of Sudoku | Video    | 00:12:58  
+  Lecture 7: Aggregates and Optimization                                    | Lecture  | 00:40:14  
+    Video 1: Aggregates General Introduction and Counting                   | Video    | 00:10:02  
+    Video 2: Aggregates Cardinality Constraints and Aggregates with Exercises | Video    | 00:05:53  
+    Video 3: Aggregates Summation with Excersises                           | Video    | 00:07:44  
+    Video 4: Optimization Recalls with Optimization                         | Video    | 00:09:25  
+    Video 5: Optimization Assigning Referees                                | Video    | 00:07:09  
+-------------------------------------------------------------------------------------------------
+Module 5: Reasoning about Actions                                           | Module   | 02:12:17  
+  Lecture 1: Reasoning about Actions                                        | Lecture  | 00:20:23  
+    Video 1: Introduction to Reasoning about Actions General Introduction   | Video    | 00:06:33  
+    Video 2: Introduction to Reasoning about Actions Action Description Languages | Video    | 00:13:50  
+  Lecture 2: Simple Transition System in ASP                                | Lecture  | 00:34:28  
+    Video 1: Simple Transition System in ASP - Part 1                       | Video    | 00:24:32  
+    Video 2: Simple Transition System in ASP - Part 2                       | Video    | 00:09:55  
+  Lecture 3: More Complex Transition Systems in ASP                         | Lecture  | 01:04:23  
+    Video 1: Monkey and Bananas in ASP - Part 1                             | Video    | 00:24:27  
+    Video 2: Monkey and Bananas in ASP - Part 2                             | Video    | 00:17:37  
+    Video 3: Blocks World in ASP                                            | Video    | 00:22:18  
+  Lecture 4: Expressive Possibilities                                       | Lecture  | 00:13:02  
+    Video 1: Expressive Possibilities Nondeterministic Actions              | Video    | 00:05:37  
+    Video 2: Expressive Possibilities Interaction between Concurrent Actions | Video    | 00:03:42  
+    Video 3: Expressive Possibilities Non-Inertial Fluents                  | Video    | 00:03:41  
+-------------------------------------------------------------------------------------------------
+Module 6: KRR with Uncertainty                                              | Module   | 03:55:53  
+  Lecture 1: Introduction to Review of Probability                          | Lecture  | 00:44:12  
+    Video 1: Review of Probability Conditioning                             | Video    | 00:16:35  
+    Video 2: Review of Probability Bayes Rule and Product Rule              | Video    | 00:07:54  
+    Video 3: Review of Probability Marginal Independence and Conditional Independence | Video    | 00:19:41  
+  Lecture 2: Introduction to Bayesian Networks                              | Lecture  | 00:20:35  
+    Video 1: Bayesian Networks General Introduction                         | Video    | 00:07:57  
+    Video 2: Bayesian Networks Independence Assumption                      | Video    | 00:07:26  
+    Video 3: Bayesian Networks Types of Inference                           | Video    | 00:05:11  
+  Lecture 3: Introduction to Markov Logic                                   | Lecture  | 00:28:53  
+    Video 1: Markov Logic                                                   | Video    | 00:28:53  
+  Lecture 4: Introduction to LPMLN                                          | Lecture  | 02:22:12  
+    Video 1: Language LPMLN General Introduction, Syntax, and Semantics     | Video    | 00:15:11  
+    Video 2: Language LPMLN Syntax and Semantics Examples                   | Video    | 00:15:13  
+    Video 3: Language LPMLN Reward- and Penalty-Based Weight                | Video    | 00:02:59  
+    Video 4: LPMLN Relationships to Other Languages ASP                     | Video    | 00:07:56  
+    Video 5: LPMLN Relationships to Other Languages From MLN to LPMLN       | Video    | 00:21:49  
+    Video 6: LPMLN Relationships to Other Languages Turning LPMLN to MLN    | Video    | 00:03:13  
+    Video 7: Inference in LPMLN - Part 1                                    | Video    | 00:10:50  
+    Video 8: Inference in LPMLN - Part 2                                    | Video    | 00:09:50  
+    Video 9: Inference in LPMLN - Part 3                                    | Video    | 00:07:11  
+    Video 10: LPMLN Inference Examples LPMLN Language with Test Run         | Video    | 00:13:30  
+    Video 11: LPMLN Inference Examples Representing Bayesian Networks with Test Run | Video    | 00:23:42  
+    Video 12: LPMLN Inference Examples Representing Probabilistic Graph Problems | Video    | 00:10:42  
+-------------------------------------------------------------------------------------------------
+Module 7: Ontology Languages                                                | Module   | 02:50:33  
+  Lecture 1: Ontology                                                       | Lecture  | 00:17:33  
+    Video 1: Introduction to Ontology                                       | Video    | 00:17:33  
+  Lecture 2: Resource Description Framework                                 | Lecture  | 00:39:36  
+    Video 1: Resource Description Framework General Introduction and Schema | Video    | 00:18:19  
+    Video 2: Resource Description Framework Class Hierarchies               | Video    | 00:11:25  
+    Video 3: Resource Description Framework Axiomatic Semantics             | Video    | 00:09:51  
+  Lecture 3: Description Logics                                             | Lecture  | 01:33:24  
+    Video 1: Introduction to Description Logics                             | Video    | 00:26:39  
+    Video 2: ALC Semantics General Introduction                             | Video    | 00:13:41  
+    Video 3: ALC Semantics Example 1 Walkthrough                            | Video    | 00:06:16  
+    Video 4: ALC Semantics Example 2 Walkthrough                            | Video    | 00:02:31  
+    Video 5: ALC Semantics Validity                                         | Video    | 00:02:02  
+    Video 6: Description Logic to First-Order Logic - Part 1                | Video    | 00:08:25  
+    Video 7: Description Logic to First-Order Logic - Part 2                | Video    | 00:10:57  
+    Video 8: Beyond ALC General Introduction and Number Restrictions        | Video    | 00:09:10  
+    Video 9: Beyond ALC Nominals                                            | Video    | 00:04:16  
+    Video 10: Beyond ALC Example Walkthrough, OWS, and CWA                  | Video    | 00:09:22  
+  Lecture 4: Ontology Languages                                             | Lecture  | 00:19:58  
+    Video 1: Web Ontology Language (OWL) General Introduction               | Video    | 00:06:12  
+    Video 2: Web Ontology Language (OWL) Semantics and Description Logics   | Video    | 00:09:29  
+    Video 3: Web Ontology Language (OWL) DL and OWL Compared and Implemented DL Systems | Video    | 00:04:16  
+-------------------------------------------------------------------------------------------------
+Module 8: Applications of KRR- Optional                                     | Module   | 00:34:26  
+  Lecture 1: More on ASP                                                    | Lecture  | 00:14:30  
+    Video 1: More on ASP Learning in LPMLN                                  | Video    | 00:06:23  
+    Video 2: More on ASP Modulo Theories                                    | Video    | 00:05:22  
+    Video 3: More on ASP DLVHEX                                             | Video    | 00:02:45  
+  Lecture 2: Some KRR Applications                                          | Lecture  | 00:19:55  
+    Video 1: Some KRR Applications Reasoning about Access Control Policy    | Video    | 00:07:36  
+    Video 2: Some KRR Applications QA System for Hypothetical Systems       | Video    | 00:08:13  
+    Video 3: Some KRR Applications Inferring Phylogenetic Trees             | Video    | 00:04:06  
+-------------------------------------------------------------------------------------------------
