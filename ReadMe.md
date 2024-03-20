@@ -33,7 +33,7 @@ To use this script, you must provide the course id and the cookies from your bro
 1. **Obtain Cookies**: Navigate to your Canvas course page in your web browser. You'll need to retrieve your session cookies. 
 ![Chrome Cookies Guide](chrome-cookies.jpg)
 
-2. **Execute the Script**: Run the script with the required parameters (course URL and cookies). Make sure to replace `<CourseId>` with the actual URL of your Canvas course and `<Cookies>` with your session cookies obtained in the previous step.`<CourseId>` is the number in the course url, for example `181496` is `<CourseId>` for `https://canvas.asu.edu/courses/181496/modules`
+2. **Execute the Script**: Run the script with the required parameters (course id and cookies). Make sure to replace `<CourseId>` with the actual id of your Canvas course and `<Cookies>` with your session cookies obtained in the previous step.`<CourseId>` is the number in the course url, for example `181496` is `<CourseId>` for `https://canvas.asu.edu/courses/181496/modules`
 
     ```bash
     python main.py course_id='<CourseId>' cookies='<Cookies>'
