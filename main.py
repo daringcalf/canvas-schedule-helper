@@ -4,8 +4,27 @@ import re
 from bs4 import BeautifulSoup
 import requests
 import sys
+from pathlib import Path
+
 
 canvas_base_url = "https://canvas.asu.edu/"
+
+
+def sanitize_filename(filename):
+    # Use only alphanumeric characters, hyphens, and underscores
+    sanitized = re.sub(r"[^a-zA-Z0-9\-_]", "_", filename)
+
+    # Handle special filenames reserved by Windows, regardless of extension
+    windows_reserved = ["CON", "PRN", "AUX", "NUL"] + [
+        f"{name}{i}" for name in ["COM", "LPT"] for i in range(1, 10)
+    ]
+    if sanitized.upper() in windows_reserved:
+        sanitized = "_" + sanitized
+
+    # Shorten to 255 characters to ensure it's within common filesystem limits
+    sanitized = sanitized[:255]
+
+    return sanitized
 
 
 def parse_course_page(course_page_html):
@@ -100,7 +119,13 @@ def parse_lecture_page(lecture_page_html):
 
         title = ".".join(full_title.split(".")[:-1])
 
-        title = title.replace("_Transcripts", "").replace("_Transcript", "").replace("_Transcipt", "").replace("_transcripts", "").replace("_transcript", "")
+        title = (
+            title.replace("_Transcripts", "")
+            .replace("_Transcript", "")
+            .replace("_Transcipt", "")
+            .replace("_transcripts", "")
+            .replace("_transcript", "")
+        )
 
         link = transcript_a["href"]
         download_url = link.split("?")[0] + download_suffix
@@ -222,22 +247,67 @@ def main():
     course_id = args.get("course_id")
     cookies = args.get("cookies")
 
+    cache_dir = "cache"
+
+    if not course_id or not cookies:
+        sys.exit("Usage: python main.py course_id='...' cookies='...'")
+
     course_url = f"https://canvas.asu.edu/courses/{course_id}/modules"
 
-    if not course_url or not cookies:
-        sys.exit("Usage: python main.py course_url='https://...' cookies='...'")
+    course_dir = Path(f"{cache_dir}/{course_id}")
+    transcript_dir = course_dir / "subs"
+    modules_page_path = course_dir / "modules.html"
+    modules_page_html = ""
 
-    course_page_html = get_url_content(course_url, cookies)
-    course_modules = parse_course_page(course_page_html)
+    if not transcript_dir.is_dir():
+        print(f"Creating directory for course {course_id}")
+        transcript_dir.mkdir(parents=True, exist_ok=True)
+
+    if modules_page_path.is_file():
+        with open(modules_page_path, "r") as file:
+            modules_page_html = file.read()
+    else:
+        modules_page_html = get_url_content(course_url, cookies)
+        with open(modules_page_path, "w") as file:
+            file.write(modules_page_html)
+
+    course_modules = parse_course_page(modules_page_html)
 
     for module in course_modules:
         for lecture in module.get("lectures", []):
-            lecture_html = get_url_content(lecture.get("link"), cookies)
+            lecture_html = ""
+            lecture_html_path = course_dir / sanitize_filename(
+                f"{lecture.get('title')}.html"
+            )
+            if lecture_html_path.is_file():
+                with open(lecture_html_path, "r") as file:
+                    lecture_html = file.read()
+            else:
+                lecture_html = get_url_content(lecture.get("link"), cookies)
+                with open(lecture_html_path, "w") as file:
+                    file.write(lecture_html)
+
             lecture["videos"] = parse_lecture_page(lecture_html)
+
             for video in lecture.get("videos", []):
+                transcript_content = ""
+                transcript_path = transcript_dir / sanitize_filename(
+                    sanitize_filename(
+                        f"{video.get('title')}.{video.get('transcript_type')}"
+                    )
+                )
+                if transcript_path.is_file():
+                    with open(transcript_path, "r") as file:
+                        transcript_content = file.read()
+                else:
+                    transcript_content = get_url_content(
+                        video.get("download_url"), cookies
+                    )
+                    with open(transcript_path, "w") as file:
+                        file.write(transcript_content)
+
                 video["length"] = parse_last_timestamp(
-                    get_url_content(video.get("download_url"), cookies),
-                    video.get("transcript_type"),
+                    transcript_content, video.get("transcript_type")
                 )
 
     display_course_summary(course_modules)
