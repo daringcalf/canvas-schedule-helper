@@ -143,6 +143,9 @@ def parse_lecture_page(lecture_page_html):
 
 
 def get_url_content(url, cookies):
+    if cookies is None:
+        raise ValueError("No cookies provided")
+
     print("downloading... ", url)
     response = requests.get(url, headers={"Cookie": cookies})
     return response.text
@@ -249,7 +252,7 @@ def main():
 
     cache_dir = "cache"
 
-    if not course_id or not cookies:
+    if not course_id:
         sys.exit("Usage: python main.py course_id='...' cookies='...'")
 
     course_url = f"https://canvas.asu.edu/courses/{course_id}/modules"
