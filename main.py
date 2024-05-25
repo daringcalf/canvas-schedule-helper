@@ -111,13 +111,20 @@ def parse_lecture_page(lecture_page_html):
     videos = []
 
     for transcript_a in soup.find_all("a", class_="instructure_file_link"):
-        full_title = transcript_a["title"]
-        transcript_type = full_title.split(".")[-1]
+        full_title = transcript_a.get("title", transcript_a.text.strip())
 
-        if transcript_type not in ["srt", "vtt"]:
+        if "." in full_title:
+            transcript_type = full_title.split(".")[-1]
+        else:
+            transcript_type = "unknown"
+
+        if transcript_type not in ["srt", "vtt", "unknown"]:
             continue
 
-        title = ".".join(full_title.split(".")[:-1])
+        if "." in full_title:
+            title = ".".join(full_title.split(".")[:-1])
+        else:
+            title = full_title
 
         title = (
             title.replace("_Transcripts", "")
@@ -125,6 +132,7 @@ def parse_lecture_page(lecture_page_html):
             .replace("_Transcipt", "")
             .replace("_transcripts", "")
             .replace("_transcript", "")
+            .replace(" Transcript", "")
         )
 
         link = transcript_a["href"]
@@ -155,13 +163,18 @@ def parse_last_timestamp(file_content, file_type):
     if file_type == "srt":
         # SRT timestamp format: 00:01:22,000 --> 00:01:24,400
         time_pattern = re.compile(r"\d{2}:\d{2}:\d{2},\d{3}")
-    elif file_type == "vtt":
+    elif file_type == "vtt" or file_type == "unknown":
         # VTT timestamp format: 00:01:22.000 --> 00:01:24.400
         time_pattern = re.compile(r"\d{2}:\d{2}:\d{2}\.\d{3}")
     else:
         raise ValueError(f"Unknown file type: {file_type}")
 
     timestamps = time_pattern.findall(file_content)
+    if not timestamps and file_type == "unknown":
+        # If no timestamps found and file type is unknown, try the SRT pattern
+        time_pattern = re.compile(r"\d{2}:\d{2}:\d{2},\d{3}")
+        timestamps = time_pattern.findall(file_content)
+
     if not timestamps:
         return None
 
@@ -287,7 +300,7 @@ def main():
                     lecture_html = file.read()
             else:
                 lecture_html = get_url_content(lecture.get("link"), cookies)
-                with open(lecture_html_path, "w") as file:
+                with open(lecture_html_path, "w", encoding='utf-8') as file:
                     file.write(lecture_html)
 
             lecture["videos"] = parse_lecture_page(lecture_html)

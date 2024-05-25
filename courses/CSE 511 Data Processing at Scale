@@ -1,0 +1,76 @@
+CSE 511 Data Processing at Scale
+
+Module / Lecture / Video                                                    | Type     | Duration
+-------------------------------------------------------------------------------------------------
+Module 1: Basic Data Processing Concepts                                    | Module   | 00:00:00
+  Lecture 1: Big Data and Data Processing                                   | Lecture  | 00:00:00
+  Lecture 2: Basic Data Concepts                                            | Lecture  | 00:00:00
+  Lecture 3: Database Design: Entity Relationship Model to Relational Model | Lecture  | 00:00:00
+  Lecture 4: Relational Model and Relational Algebra                        | Lecture  | 00:00:00
+  Lecture 5: Introduction to SQL Query Language                             | Lecture  | 00:00:00
+  Lecture 6: Spatial Database                                               | Lecture  | 00:00:00
+-------------------------------------------------------------------------------------------------
+Module 2: Data Storage and Indexing                                         | Module   | 00:00:00
+  Lecture 1: Major Storage Layouts                                          | Lecture  | 00:00:00
+  Lecture 2: Major Indexing Schemes in Database Systems                     | Lecture  | 00:00:00
+-------------------------------------------------------------------------------------------------
+Module 3: Transactions and Recovery                                         | Module   | 00:00:00
+  Lecture 1: Transactions/ACID Properties                                   | Lecture  | 00:00:00
+  Lecture 2: Lock-based Concurrency Control and Recovery From Failures      | Lecture  | 00:00:00
+  Lecture 3: Concurrency Control in Database Systems                        | Lecture  | 00:00:00
+-------------------------------------------------------------------------------------------------
+Module 4: Principles of Distributed and Parallel Database Systems           | Module   | 00:45:56
+  Lecture 1: Distributed Databases: Why, What?                              | Lecture  | 00:00:00
+  Lecture 2: Data Fragmentation and Replication Models                      | Lecture  | 00:00:00
+  Lecture 3: Advanced Distributed Database Systems                          | Lecture  | 00:27:17
+    Video 1: Introduction to Query Processing in a Distributed Database     | Video    | 00:12:18
+    Video 2: Distributed Query Processing                                   | Video    | 00:06:57
+    Video 3: Total Cost of a Query Execution Plan                           | Video    | 00:08:02
+  Lecture 4: Parallel Database Systems                                      | Lecture  | 00:18:38
+    Video 1: Introduction to Parallel DBMS                                  | Video    | 00:07:11
+    Video 2: The Different Types of DBMS Parallelism                        | Video    | 00:05:50
+    Video 3: Parallel Sorting and Joins                                     | Video    | 00:05:37
+-------------------------------------------------------------------------------------------------
+Module 5: NoSQL Database Systems                                            | Module   | 01:31:14
+  Lecture 1: What is NoSQL?                                                 | Lecture  | 00:26:19
+    Video 1: What is NoSQL?                                                 | Video    | 00:12:36
+    Video 2: Scalability and CAP Theorem                                    | Video    | 00:13:42
+  Lecture 2: Classifications of NoSQL Databases                             | Lecture  | 01:04:54
+    Video 1: Graph Databases                                                | Video    | 00:21:38
+    Video 2: Key-Value Stores                                               | Video    | 00:17:23
+    Video 3: Document Stores                                                | Video    | 00:19:37
+    Video 4: NoSQL vs SQL                                                   | Video    | 00:06:14
+-------------------------------------------------------------------------------------------------
+Module 6: Big Data Tools                                                    | Module   | 02:17:35
+  Lecture 1: Data Management in MapReduce Systems                           | Lecture  | 00:41:07
+    Video 1: Data Management in MapReduce                                   | Video    | 00:06:48
+    Video 2: MapReduce- How it Works                                        | Video    | 00:04:17
+    Video 3: HDFS                                                           | Video    | 00:03:06
+    Video 4: MapReduce Programming Model                                    | Video    | 00:03:23
+    Video 5: Visualization of MapReduce System                              | Video    | 00:10:05
+    Video 6: MapReduce Execution Details                                    | Video    | 00:05:24
+    Video 7: Operators in MapReduce                                         | Video    | 00:08:01
+  Lecture 2: Data Management in Apache Spark and Apache Hadoop              | Lecture  | 01:36:28
+    Video 1: Apache Spark RDD Data Processing System                        | Video    | 00:28:46
+    Video 2: Spark Ecosystem                                                | Video    | 00:18:33
+    Video 3: Common Components of Apache Hadoop                             | Video    | 00:10:31
+    Video 4: Geospark for Large Scale Spatial Data                          | Video    | 00:12:58
+    Video 5: Spatial Partitioning and Queries                               | Video    | 00:17:34
+    Video 6: Optimization for Spatial SQL Queries                           | Video    | 00:08:04
+-------------------------------------------------------------------------------------------------
+Module 7: Data Management in the Cloud                                      | Module   | 01:49:19
+  Lecture 1: Introduction to Cloud Computing                                | Lecture  | 00:44:48
+    Video 1: Introduction to Cloud Computing                                | Video    | 00:15:24
+    Video 2: Service Models                                                 | Video    | 00:22:06
+    Video 3: Deployment Models                                              | Video    | 00:07:17
+  Lecture 2: Amazon Web Services                                            | Lecture  | 00:36:04
+    Video 1: AWS Interfaces                                                 | Video    | 00:01:54
+    Video 2: Auto-Scaling                                                   | Video    | 00:08:24
+    Video 3: Scalable Data Processing                                       | Video    | 00:18:59
+    Video 4: AWS Security                                                   | Video    | 00:06:45
+  Lecture 3: Cloud-Based Data Management                                    | Lecture  | 00:28:26
+    Video 1: Amazon Web Services                                            | Video    | 00:04:42
+    Video 2: AWS Computing                                                  | Video    | 00:11:44
+    Video 3: AWS Storage                                                    | Video    | 00:07:23
+    Video 4: AWS Queueing                                                   | Video    | 00:04:35
+-------------------------------------------------------------------------------------------------

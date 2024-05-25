@@ -1,0 +1,115 @@
+CSE 598 Advanced Software Analysis and Design
+
+Module / Lecture / Video                                                    | Type     | Duration
+-------------------------------------------------------------------------------------------------
+Module 1: Nature of Software Systems and Significance of Software Analysis and Design | Module   | 01:38:00
+  Lecture 1: Complex Nature of Modern Software Systems                      | Lecture  | 00:54:48
+    Video 1: Nature of Modern Software Systems Lecture                      | Video    | 00:16:10
+    Video 2: Operational Expectations of Software Systems Lecture           | Video    | 00:14:21
+    Video 3: Quality Expectations of Software Systems Lecture               | Video    | 00:14:04
+    Video 4: Path Towards Better Quality Software Lecture                   | Video    | 00:10:11
+  Lecture 2: Architecture-Centric Software Development                      | Lecture  | 00:43:12
+    Video 1: Introduction to Software Design and Architecture Lecture       | Video    | 00:10:42
+    Video 2: Significance of the Software Architecture Lecture              | Video    | 00:12:27
+    Video 3: Architecture-Centric Software Development: A Success Story Lecture | Video    | 00:20:02
+-------------------------------------------------------------------------------------------------
+Module 2: Object-Oriented Analysis and Design                               | Module   | 02:38:29
+  Lecture 1: Object-Oriented Design Fundamentals                            | Lecture  | 00:43:21
+    Video 1: Foundations of Object-Oriented Analysis and Design Lecture     | Video    | 00:15:35
+    Video 2: Object-Oriented Analysis Modeling: Approach Lecture            | Video    | 00:11:40
+    Video 3: Object-Oriented Analysis: Object Classification Lecture        | Video    | 00:16:06
+  Lecture 2: From Requirements to Objects                                   | Lecture  | 00:51:58
+    Video 1: Object-Oriented Analysis Modeling Artifacts: Use Cases and Use Diagrams Lecture | Video    | 00:16:53
+    Video 2: Object-Oriented Analysis Modeling Artifacts: Class Responsibility Collaborator (CRC) Diagrams Lecture | Video    | 00:11:03
+    Video 3: From Requirements to Objects - Arizona Investment Bank (AIB) Example - Use Case and Use Case Diagram Lecture | Video    | 00:13:08
+    Video 4: From Requirement to Objects - Arizona Investment Bank (AIB) Example - Object Identification Lecture | Video    | 00:10:52
+  Lecture 3: Documenting Software Analysis and Design using UML             | Lecture  | 01:03:09
+    Video 1: Documenting Objects and Object Relationships - Unified Modeling Language (UML) Approach Lecture | Video    | 00:22:22
+    Video 2: Arizona Investment Bank (AIB) System Case Study: Objects Analysis and Object Relationships Lecture | Video    | 00:12:17
+    Video 3: Analyzing Object Behaviors: Sequence Diagrams Lecture          | Video    | 00:15:57
+    Video 4: Analyzing Object Behaviors: State Diagrams Lecture             | Video    | 00:12:31
+-------------------------------------------------------------------------------------------------
+Module 3: Software Design Principles and Software Architecture Preliminaries | Module   | 03:32:31
+  Lecture 1: Software Architecture Principles                               | Lecture  | 01:07:38
+    Video 1: Software Architecture: A Closer Look Lecture                   | Video    | 00:15:45
+    Video 2: Software Architecture Views Lecture                            | Video    | 00:16:15
+    Video 3: Software Architecture Styles (Patterns) Lecture                | Video    | 00:22:55
+    Video 4: Software Architecture In Practice Lecture                      | Video    | 00:12:41
+  Lecture 2: Software Design Principles                                     | Lecture  | 01:01:36
+    Video 1: Software Design Principles Lecture                             | Video    | 00:15:34
+    Video 2: Software Design: Modularity Lecture                            | Video    | 00:09:15
+    Video 3: Software Design: Coupling Lecture                              | Video    | 00:11:30
+    Video 4: Software Design: Cohesion Lecture                              | Video    | 00:15:36
+    Video 5: Software Design: Interfaces Lecture                            | Video    | 00:09:39
+  Lecture 3: Object-Oriented Design Patterns                                | Lecture  | 01:23:17
+    Video 1: Software Design: Object-Oriented Design Patterns Lecture       | Video    | 00:08:06
+    Video 2: Creational Software Design Patterns Lecture                    | Video    | 00:17:13
+    Video 3: Structural Software Design Patterns Lecture                    | Video    | 00:14:21
+    Video 4: Behavioral Software Design Patterns Lecture                    | Video    | 00:14:22
+    Video 5: Implementation of Representative Set of Software Design Patterns Lecture | Video    | 00:22:14
+    Video 6: Arizona Investment Bank (AIB) Software System Refactoring Using Design Patterns Lecture | Video    | 00:06:58
+-------------------------------------------------------------------------------------------------
+Module 4: Software Architecture Fundamentals, Documentation, and Evaluation | Module   | 04:44:44
+  Lecture 1: Software Architecture: A Deep Dive                             | Lecture  | 01:52:06
+    Video 1: Software Architecture: Quick Overview Lecture                  | Video    | 00:12:06
+    Video 2: Software Architecture Design Life Cycle Lecture                | Video    | 00:20:20
+    Video 3: Software Architecture Design Lecture                           | Video    | 00:26:38
+    Video 4: Attribute Driven Design (ADD) Lecture                          | Video    | 00:11:50
+    Video 5: Using Architectural Patterns During the Design Lecture         | Video    | 00:14:28
+    Video 6: Identifying Architectural Patterns: Module, Connector-Component, Allocation Views Lecture | Video    | 00:12:18
+    Video 7: Architecture Patterns and the Architecture Design: Context, Problem, Solution Approach Lecture | Video    | 00:14:23
+  Lecture 2: Documenting Software Architecture                              | Lecture  | 00:51:51
+    Video 1: Documenting Software Architecture Lecture                      | Video    | 00:13:37
+    Video 2: Software Architecture Documentation: C4 Model Lecture          | Video    | 00:22:05
+    Video 3: Software Architecture Documentation: C4 Model Example Lecture  | Video    | 00:16:07
+  Lecture 3: Software Architecture Quality Attributes                       | Lecture  | 00:52:20
+    Video 1: Quality Attribute Considerations in Software Architecture Design Lecture | Video    | 00:09:09
+    Video 2: Defining Software Quality Attributes Lecture                   | Video    | 00:12:49
+    Video 3: Achieving Quality Attribute through Software Architecture Design Tactics Lecture | Video    | 00:14:13
+    Video 4: Incorporating Software Quality Attributes Lecture              | Video    | 00:16:07
+  Lecture 4: Evaluating Software Architecture: Architecture Tradeoff Analysis Method (ATAM) | Lecture  | 01:08:26
+    Video 1: Software Architecture Evaluation Lecture                       | Video    | 00:09:11
+    Video 2: ATAM - Architecture Evaluation Process Lecture                 | Video    | 00:10:47
+    Video 3: Architecture Evaluation Steps and Phases Lecture               | Video    | 00:16:17
+    Video 4: ATAM in Operation Lecture                                      | Video    | 00:11:21
+    Video 5: Accelerated ATAM - Case Study Example Lecture                  | Video    | 00:20:48
+-------------------------------------------------------------------------------------------------
+Module 5: Architecting Service-Oriented and Microservices-Based Web Applications | Module   | 04:59:39
+  Lecture 1: SOA Application Development and SOA Architecture               | Lecture  | 03:11:39
+    Video 1: Introduction to Service Oriented Computing Lecture             | Video    | 00:17:31
+    Video 2: A Closer Look at SOC Lecture                                   | Video    | 00:23:06
+    Video 3: SOAP, REST Web Services and Technology Trends Lecture          | Video    | 00:27:34
+    Video 4: Web Service Development Technologies Lecture                   | Video    | 00:12:49
+    Video 5: Using SOAP Web Services Lecture                                | Video    | 00:11:30
+    Video 6: Using REST Web Services Lecture                                | Video    | 00:16:38
+    Video 7: JavaScript Object Notation (JSON) Processing Lecture           | Video    | 00:20:05
+    Video 8: Design and Implementation of SOAP Web Services Lecture         | Video    | 00:17:45
+    Video 9: Design and Implementation of REST Web Services Lecture         | Video    | 00:25:00
+    Video 10: Developing Applications Using Web Services Lecture            | Video    | 00:19:37
+  Lecture 2: Microservices Application Development and Microservices Architecture | Lecture  | 01:48:00
+    Video 1: Introduction to Microservice Architecture Lecture              | Video    | 00:19:42
+    Video 2: Microservice Architecture Fundamentals Lecture                 | Video    | 00:13:21
+    Video 3: Using Microservice Architecture: A Generic Framework Lecture   | Video    | 00:13:11
+    Video 4: Using Microservice Architecture: A Case-Study Example Lecture  | Video    | 00:16:01
+    Video 5: Microservice Architecture: Early Industry Adopters Lecture     | Video    | 00:19:01
+    Video 6: Microservice Architecture: Benefits and Drawbacks Lecture      | Video    | 00:11:53
+    Video 7: Microservice Architecture for the Arizona Investment Bank System Lecture | Video    | 00:14:47
+-------------------------------------------------------------------------------------------------
+Module 6: Architecting Mobile Applications                                  | Module   | 01:18:44
+  Lecture 1: Mobile App Development and Architecture Considerations         | Lecture  | 00:00:00
+  Lecture 2: Web Data Integration for Mobile Applications                   | Lecture  | 01:18:44
+    Video 1: Integrating Web Content into Mobile Applications Lecture       | Video    | 00:18:16
+    Video 2: Web API Calls from a Mobile Application Lecture                | Video    | 00:24:09
+    Video 3: Web API Call from an iOS Application - Case Study 1 Lecture    | Video    | 00:14:17
+    Video 4: Web API Call from an iOS Application - Case Study 2 Lecture    | Video    | 00:22:01
+-------------------------------------------------------------------------------------------------
+Module 7: Architecting Robotics and Autonomous Systems                      | Module   | 01:40:32
+  Lecture 1: Survey the Field of Robotics and Autonomous Systems            | Lecture  | 00:37:22
+    Video 1: Heni Ben Amor Interview (Part 1) Lecture                       | Video    | 00:15:22
+    Video 2: Heni Ben Amor Interview (Part 2) Lecture                       | Video    | 00:08:55
+    Video 3: Heni Ben Amor Interview (Part 3) Lecture                       | Video    | 00:13:03
+  Lecture 2: Towards a Generic Software Architecture for Robotics and Autonomous Systems | Lecture  | 01:03:09
+    Video 1: Introduction to Robotics and Autonomous Systems Lecture        | Video    | 00:18:59
+    Video 2: Computational Requirements of Robotics and Autonomous Systems Lecture | Video    | 00:25:10
+    Video 3: Software Design Considerations of Robotics and Autonomous Systems Lecture | Video    | 00:18:59
+-------------------------------------------------------------------------------------------------
