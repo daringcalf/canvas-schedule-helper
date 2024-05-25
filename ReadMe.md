@@ -1,3 +1,6 @@
+# Join our discord
+[AI Master](https://discord.gg/wetGqcgxDR)
+
 # Canvas Schedule Helper
 
 This Python script calculates the total duration of all videos in a course hosted on the Canvas Learning Management System. It is designed to help students plan their study time more efficiently by giving them an idea of how long it will take to go through course materials.
