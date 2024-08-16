@@ -133,6 +133,8 @@ def parse_lecture_page(lecture_page_html):
             .replace("_transcripts", "")
             .replace("_transcript", "")
             .replace(" Transcript", "")
+            .replace("Transcript", "")
+            .strip()
         )
 
         link = transcript_a["href"]
@@ -160,20 +162,15 @@ def get_url_content(url, cookies):
 
 
 def parse_last_timestamp(file_content, file_type):
-    if file_type == "srt":
-        # SRT timestamp format: 00:01:22,000 --> 00:01:24,400
-        time_pattern = re.compile(r"\d{2}:\d{2}:\d{2},\d{3}")
-    elif file_type == "vtt" or file_type == "unknown":
-        # VTT timestamp format: 00:01:22.000 --> 00:01:24.400
-        time_pattern = re.compile(r"\d{2}:\d{2}:\d{2}\.\d{3}")
-    else:
+    # raise error if file type is unexpected
+    if file_type not in ["srt", "vtt", "unknown"]:
         raise ValueError(f"Unknown file type: {file_type}")
-
+    
+    # SRT timestamp format: 00:01:22,000 --> 00:01:24,400
+    # VTT timestamp format: 00:01:22.000 --> 00:01:24.400
+    # VTT timestamp format: 00:01:22,000 --> 00:01:24,400 (also found in some VTT files)
+    time_pattern = re.compile(r"\d{2}:\d{2}:\d{2}[,|\.]\d{3}")
     timestamps = time_pattern.findall(file_content)
-    if not timestamps and file_type == "unknown":
-        # If no timestamps found and file type is unknown, try the SRT pattern
-        time_pattern = re.compile(r"\d{2}:\d{2}:\d{2},\d{3}")
-        timestamps = time_pattern.findall(file_content)
 
     if not timestamps:
         return None
@@ -204,8 +201,8 @@ def format_timedelta(td):
 
 def display_course_summary(course_modules):
     print("*** Course Durations ***")
-    print(f"{'Module / Lecture / Video':<75} | {'Type':<8} | {'Duration':<10}")
-    print("-" * 97)
+    print(f"{'Module / Lecture / Video':<135} | {'Type':<8} | {'Duration':<10}")
+    print("-" * 157)
 
     for module_idx, module in enumerate(course_modules, 1):
         module_duration = timedelta()
@@ -214,13 +211,16 @@ def display_course_summary(course_modules):
             lecture_duration = timedelta()
 
             for video in lecture.get("videos", []):
+                if video.get("length") is None:
+                    continue
                 lecture_duration += video.get("length", timedelta())
+
             module_duration += lecture_duration
 
         # Print module title with the total duration for the module
         module_title = f"Module {module_idx}: {module.get('name', 'Unnamed Module')}"
         print(
-            f"{module_title:<75} | {'Module':<8} | {format_timedelta(module_duration):<10}"
+            f"{module_title:<135} | {'Module':<8} | {format_timedelta(module_duration):<10}"
         )
 
         for lecture_idx, lecture in enumerate(module.get("lectures", []), 1):
@@ -234,7 +234,7 @@ def display_course_summary(course_modules):
             # Print lecture title with the total duration for the lecture
             lecture_title = f"  Lecture {lecture_idx}: {lecture['title']}"
             print(
-                f"{lecture_title:<75} | {'Lecture':<8} | {format_timedelta(lecture_duration):<10}"
+                f"{lecture_title:<135} | {'Lecture':<8} | {format_timedelta(lecture_duration):<10}"
             )
 
             for video_idx, video in enumerate(lecture.get("videos", []), 1):
@@ -242,10 +242,10 @@ def display_course_summary(course_modules):
                     continue
                 video_title = f"    Video {video_idx}: {video['title']}"
                 print(
-                    f"{video_title:<75} | {'Video':<8} | {format_timedelta(video['length']):<10}"
+                    f"{video_title:<135} | {'Video':<8} | {format_timedelta(video['length']):<10}"
                 )
 
-        print("-" * 97)
+        print("-" * 157)
 
 
 def parse_arguments(args):
