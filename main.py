@@ -133,6 +133,8 @@ def parse_lecture_page(lecture_page_html):
             .replace("_transcripts", "")
             .replace("_transcript", "")
             .replace(" Transcript", "")
+            .replace("Transcript", "")
+            .strip()
         )
 
         link = transcript_a["href"]

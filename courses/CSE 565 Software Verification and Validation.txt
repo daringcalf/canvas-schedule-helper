@@ -36,119 +36,119 @@ Module 2: Specification-Based Techniques - Part 1                               
     Video 2: State Based Testing                                                                                                        | Video    | 00:17:19  
     Video 3: State Based Testing Problem Example                                                                                        | Video    | 00:09:25  
   Lecture 4: Model-Based Testing                                                                                                        | Lecture  | 00:12:14  
-    Video 1: Model Based Testing Transcript                                                                                             | Video    | 00:05:42  
-    Video 2: Model Based Testing: Review of Reading Transcript                                                                          | Video    | 00:06:32  
+    Video 1: Model Based Testing                                                                                                        | Video    | 00:05:42  
+    Video 2: Model Based Testing: Review of Reading                                                                                     | Video    | 00:06:32  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Module 3: Specification-Based Techniques - Part 2                                                                                       | Module   | 01:59:08  
   Lecture 1: Combinatorial Testing Techniques                                                                                           | Lecture  | 00:45:05  
     Video 1: Combinatorial Coverage as an Aspect of Test Quality                                                                        | Video    | 00:11:28  
     Video 2: Design of Experiments                                                                                                      | Video    | 00:22:21  
-    Video 3: Design of Experiments: Problem Example Transcript                                                                          | Video    | 00:03:12  
-    Video 4: Using Combinatorial Testing to Reduce Software Rework: Review of Reading Transcript                                        | Video    | 00:02:52  
-    Video 5: Combinatorial Coverage as an Aspect of Test Quality: Review of Reading Transcript                                          | Video    | 00:05:11  
+    Video 3: Design of Experiments: Problem Example                                                                                     | Video    | 00:03:12  
+    Video 4: Using Combinatorial Testing to Reduce Software Rework: Review of Reading                                                   | Video    | 00:02:52  
+    Video 5: Combinatorial Coverage as an Aspect of Test Quality: Review of Reading                                                     | Video    | 00:05:11  
   Lecture 2: Mutation Testing                                                                                                           | Lecture  | 00:20:33  
-    Video 1: Mutation Testing Transcript                                                                                                | Video    | 00:11:47  
-    Video 2: Mutation Testing: Review of Reading Transcript                                                                             | Video    | 00:08:45  
+    Video 1: Mutation Testing                                                                                                           | Video    | 00:11:47  
+    Video 2: Mutation Testing: Review of Reading                                                                                        | Video    | 00:08:45  
   Lecture 3: Fuzz Testing                                                                                                               | Lecture  | 00:15:01  
-    Video 1: Fuzz Testing Transcript                                                                                                    | Video    | 00:07:55  
-    Video 2: Fuzz Testing and Software Assurance: Review of Reading Transcript                                                          | Video    | 00:07:05  
+    Video 1: Fuzz Testing                                                                                                               | Video    | 00:07:55  
+    Video 2: Fuzz Testing and Software Assurance: Review of Reading                                                                     | Video    | 00:07:05  
   Lecture 4: Metamorphic Testing                                                                                                        | Lecture  | 00:16:53  
-    Video 1: Metamorphic Testing Transcript                                                                                             | Video    | 00:11:52  
-    Video 2: Metamorphic Runtime Checking of Applications Without Test Oracles: Reflection on Reading Transcript                        | Video    | 00:05:01  
+    Video 1: Metamorphic Testing                                                                                                        | Video    | 00:11:52  
+    Video 2: Metamorphic Runtime Checking of Applications Without Test Oracles: Reflection on Reading                                   | Video    | 00:05:01  
   Lecture 5: Defect Based Testing                                                                                                       | Lecture  | 00:06:24  
-    Video 1: Defect Based Testing Transcript                                                                                            | Video    | 00:06:24  
+    Video 1: Defect Based Testing                                                                                                       | Video    | 00:06:24  
   Lecture 6: Exploratory Testing                                                                                                        | Lecture  | 00:15:09  
-    Video 1: Exploratory Testing Transcript                                                                                             | Video    | 00:15:09  
+    Video 1: Exploratory Testing                                                                                                        | Video    | 00:15:09  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Module 4: Structural-Based Techniques                                                                                                   | Module   | 02:22:22  
   Lecture 1: Dynamic Analysis                                                                                                           | Lecture  | 01:38:32  
-    Video 1: Control Flow Testing Transcript                                                                                            | Video    | 00:09:37  
-    Video 2: Control Flow Coverage Levels Transcript                                                                                    | Video    | 00:13:30  
-    Video 3: Control Flow Testing - Binary Search Example Transcript                                                                    | Video    | 00:19:10  
-    Video 4: Structured Testing Transcript                                                                                              | Video    | 00:13:25  
-    Video 5: Cyclomatic Complexity of a Control Flow Diagram: Problem Example Transcript                                                | Video    | 00:01:27  
-    Video 6: Data Flow Testing Transcript                                                                                               | Video    | 00:08:39  
-    Video 7: Data Flow Testing: Example Problem Transcript                                                                              | Video    | 00:20:15  
-    Video 8: Data Flow Testing: Problem Example #2 Transcript                                                                           | Video    | 00:07:39  
-    Video 9: Test Automation Not Just for Test Execution Paper: Review of Reading Transcript                                            | Video    | 00:04:46  
+    Video 1: Control Flow Testing                                                                                                       | Video    | 00:09:37  
+    Video 2: Control Flow Coverage Levels                                                                                               | Video    | 00:13:30  
+    Video 3: Control Flow Testing - Binary Search Example                                                                               | Video    | 00:19:10  
+    Video 4: Structured Testing                                                                                                         | Video    | 00:13:25  
+    Video 5: Cyclomatic Complexity of a Control Flow Diagram: Problem Example                                                           | Video    | 00:01:27  
+    Video 6: Data Flow Testing                                                                                                          | Video    | 00:08:39  
+    Video 7: Data Flow Testing: Example Problem                                                                                         | Video    | 00:20:15  
+    Video 8: Data Flow Testing: Problem Example #2                                                                                      | Video    | 00:07:39  
+    Video 9: Test Automation Not Just for Test Execution Paper: Review of Reading                                                       | Video    | 00:04:46  
   Lecture 2: Static Analysis                                                                                                            | Lecture  | 00:43:50  
-    Video 1: Static Analysis Transcript                                                                                                 | Video    | 00:08:30  
-    Video 2: Symbolic Execution Transcript                                                                                              | Video    | 00:13:25  
-    Video 3: Symbolic Execution - Multiple Paths Examples Transcript                                                                    | Video    | 00:09:36  
-    Video 4: DevOps Advantages for Testing: Review of Reading Transcript                                                                | Video    | 00:12:17  
+    Video 1: Static Analysis                                                                                                            | Video    | 00:08:30  
+    Video 2: Symbolic Execution                                                                                                         | Video    | 00:13:25  
+    Video 3: Symbolic Execution - Multiple Paths Examples                                                                               | Video    | 00:09:36  
+    Video 4: DevOps Advantages for Testing: Review of Reading                                                                           | Video    | 00:12:17  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Module 5: Testing Software Quality Characteristics - Part 1                                                                             | Module   | 01:51:18  
   Lecture 1: Performance Testing                                                                                                        | Lecture  | 00:12:24  
-    Video 1: Performance Testing Transcript                                                                                             | Video    | 00:12:24  
+    Video 1: Performance Testing                                                                                                        | Video    | 00:12:24  
   Lecture 2: Stress Testing                                                                                                             | Lecture  | 00:12:20  
-    Video 1: Stress Testing Transcript                                                                                                  | Video    | 00:12:20  
+    Video 1: Stress Testing                                                                                                             | Video    | 00:12:20  
   Lecture 3: Volume Testing                                                                                                             | Lecture  | 00:05:25  
-    Video 1: Volume Testing Transcript                                                                                                  | Video    | 00:05:25  
+    Video 1: Volume Testing                                                                                                             | Video    | 00:05:25  
   Lecture 4: Configuration Testing                                                                                                      | Lecture  | 00:16:45  
-    Video 1: Configuration Testing Transcript                                                                                           | Video    | 00:16:45  
+    Video 1: Configuration Testing                                                                                                      | Video    | 00:16:45  
   Lecture 5: Regression Testing                                                                                                         | Lecture  | 00:49:57  
-    Video 1: Regression Testing Transcript                                                                                              | Video    | 00:26:33  
-    Video 2: A Model Based Regression Test Selection Technique: Review of Reading Transcript                                            | Video    | 00:05:54  
-    Video 3: Testing in O&M: Software Does Not Wear Out, It Degrades: Review of Reading Transcript                                      | Video    | 00:07:46  
-    Video 4: Developing, Verifying, and Maintaining High Quality Automated Test Scripts Review of Reading Transcript                    | Video    | 00:09:43  
+    Video 1: Regression Testing                                                                                                         | Video    | 00:26:33  
+    Video 2: A Model Based Regression Test Selection Technique: Review of Reading                                                       | Video    | 00:05:54  
+    Video 3: Testing in O&M: Software Does Not Wear Out, It Degrades: Review of Reading                                                 | Video    | 00:07:46  
+    Video 4: Developing, Verifying, and Maintaining High Quality Automated Test Scripts Review of Reading                               | Video    | 00:09:43  
   Lecture 6: Mobile Testing                                                                                                             | Lecture  | 00:14:23  
-    Video 1: Mobile Applications Testing Paper: Review of Reading Transcript                                                            | Video    | 00:14:23  
+    Video 1: Mobile Applications Testing Paper: Review of Reading                                                                       | Video    | 00:14:23  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Module 6: Testing Software Quality Characteristics - Part 2                                                                             | Module   | 01:57:39  
   Lecture 1: Error Detection, Recovery and Serviceability Testing                                                                       | Lecture  | 00:12:41  
-    Video 1: Error Detection, Recovery, and Serviceability Testing Transcript                                                           | Video    | 00:12:41  
+    Video 1: Error Detection, Recovery, and Serviceability Testing                                                                      | Video    | 00:12:41  
   Lecture 2: Usability Testing                                                                                                          | Lecture  | 00:20:44  
-    Video 1: Usability Testing Transcript                                                                                               | Video    | 00:20:44  
+    Video 1: Usability Testing                                                                                                          | Video    | 00:20:44  
   Lecture 3: Reliability Testing                                                                                                        | Lecture  | 01:12:21  
-    Video 1: Reliability Testing Transcript                                                                                             | Video    | 00:09:47  
-    Video 2: Reliability Testing: Operational Profiles Transcript                                                                       | Video    | 00:09:45  
-    Video 3: Reliability Models Transcript                                                                                              | Video    | 00:09:16  
-    Video 4: Software Reliability Models Transcript                                                                                     | Video    | 00:05:04  
-    Video 5: Reliability Testing Problems Transcript                                                                                    | Video    | 00:09:47  
+    Video 1: Reliability Testing                                                                                                        | Video    | 00:09:47  
+    Video 2: Reliability Testing: Operational Profiles                                                                                  | Video    | 00:09:45  
+    Video 3: Reliability Models                                                                                                         | Video    | 00:09:16  
+    Video 4: Software Reliability Models                                                                                                | Video    | 00:05:04  
+    Video 5: Reliability Testing Problems                                                                                               | Video    | 00:09:47  
     Video 6: IEEE Recommended Practice on Software Reliability: Review of Reading                                                       | Video    | 00:11:08  
-    Video 7: When to Stop Testing: Review of Reading Transcript                                                                         | Video    | 00:10:04  
-    Video 8: UML-Based Statistical Test Case Generation: Review of Reading Transcript                                                   | Video    | 00:07:26  
+    Video 7: When to Stop Testing: Review of Reading                                                                                    | Video    | 00:10:04  
+    Video 8: UML-Based Statistical Test Case Generation: Review of Reading                                                              | Video    | 00:07:26  
   Lecture 4: Security Testing                                                                                                           | Lecture  | 00:11:51  
-    Video 1: Security Testing Transcript                                                                                                | Video    | 00:11:51  
+    Video 1: Security Testing                                                                                                           | Video    | 00:11:51  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Module 7: Test Management - Part 1                                                                                                      | Module   | 02:46:11  
   Lecture 1: Test Planning Overview                                                                                                     | Lecture  | 00:17:05  
-    Video 1: Test Planning Overview Transcript                                                                                          | Video    | 00:08:41  
-    Video 2: Specification of the Test Environment Transcript                                                                           | Video    | 00:08:23  
+    Video 1: Test Planning Overview                                                                                                     | Video    | 00:08:41  
+    Video 2: Specification of the Test Environment                                                                                      | Video    | 00:08:23  
   Lecture 2: Test Schedule                                                                                                              | Lecture  | 00:21:41  
-    Video 1: Test Schedule Transcript                                                                                                   | Video    | 00:12:27  
-    Video 2: Test Schedule: Estimating System Testing Time Transcript                                                                   | Video    | 00:09:14  
+    Video 1: Test Schedule                                                                                                              | Video    | 00:12:27  
+    Video 2: Test Schedule: Estimating System Testing Time                                                                              | Video    | 00:09:14  
   Lecture 3: Estimating Testing Effort                                                                                                  | Lecture  | 00:38:53  
-    Video 1: Test Estimation Transcript                                                                                                 | Video    | 00:20:55  
-    Video 2: Test Estimation Steps Transcript                                                                                           | Video    | 00:17:57  
+    Video 1: Test Estimation                                                                                                            | Video    | 00:20:55  
+    Video 2: Test Estimation Steps                                                                                                      | Video    | 00:17:57  
   Lecture 4: Risk-Based Testing                                                                                                         | Lecture  | 00:43:57  
-    Video 1: Risk-Based Testing Transcript                                                                                              | Video    | 00:10:33  
-    Video 2: Dealing with the Time Crunch in Software Testing: Review of Reading Transcript                                             | Video    | 00:12:03  
-    Video 3: Improving Test Efficiency through System Test Prioritization: Review of Reading Transcript                                 | Video    | 00:13:24  
-    Video 4: Risk-Driven Model-Based Testing of Washing Machine Software: Review of Reading Transcript                                  | Video    | 00:07:55  
+    Video 1: Risk-Based Testing                                                                                                         | Video    | 00:10:33  
+    Video 2: Dealing with the Time Crunch in Software Testing: Review of Reading                                                        | Video    | 00:12:03  
+    Video 3: Improving Test Efficiency through System Test Prioritization: Review of Reading                                            | Video    | 00:13:24  
+    Video 4: Risk-Driven Model-Based Testing of Washing Machine Software: Review of Reading                                             | Video    | 00:07:55  
   Lecture 5: Test Exit Criteria                                                                                                         | Lecture  | 00:19:30  
-    Video 1: Test Exit Criteria Transcript                                                                                              | Video    | 00:12:55  
-    Video 2: Test Exit Criteria: Trend Analysis Transcript                                                                              | Video    | 00:06:35  
+    Video 1: Test Exit Criteria                                                                                                         | Video    | 00:12:55  
+    Video 2: Test Exit Criteria: Trend Analysis                                                                                         | Video    | 00:06:35  
   Lecture 6: Test Documentation                                                                                                         | Lecture  | 00:25:04  
-    Video 1: Test Documentation Transcript                                                                                              | Video    | 00:10:39  
-    Video 2: Test Documentation: Developer Mentality Transcript                                                                         | Video    | 00:14:24  
+    Video 1: Test Documentation                                                                                                         | Video    | 00:10:39  
+    Video 2: Test Documentation: Developer Mentality                                                                                    | Video    | 00:14:24  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Module 8: Test Management - Part 2                                                                                                      | Module   | 02:42:06  
   Lecture 1: Test Tracking                                                                                                              | Lecture  | 00:32:59  
-    Video 1: Test Tracking Transcript                                                                                                   | Video    | 00:19:06  
-    Video 2: Test Management: Review of Reading Transcript                                                                              | Video    | 00:13:53  
+    Video 1: Test Tracking                                                                                                              | Video    | 00:19:06  
+    Video 2: Test Management: Review of Reading                                                                                         | Video    | 00:13:53  
   Lecture 2: Test Process Improvement                                                                                                   | Lecture  | 00:23:21  
-    Video 1: Test Process Improvement Transcript                                                                                        | Video    | 00:18:59  
-    Video 2: Enhancing Defect Tracking Systems to Facilitate Software Quality Improvement: Review of Reading Transcript                 | Video    | 00:04:21  
+    Video 1: Test Process Improvement                                                                                                   | Video    | 00:18:59  
+    Video 2: Enhancing Defect Tracking Systems to Facilitate Software Quality Improvement: Review of Reading                            | Video    | 00:04:21  
   Lecture 3: Test Outsourcing                                                                                                           | Lecture  | 00:23:26  
-    Video 1: Test Outsourcing Transcript                                                                                                | Video    | 00:23:26  
+    Video 1: Test Outsourcing                                                                                                           | Video    | 00:23:26  
   Lecture 4: People Management                                                                                                          | Lecture  | 00:20:51  
-    Video 1: People Management Transcript                                                                                               | Video    | 00:20:51  
+    Video 1: People Management                                                                                                          | Video    | 00:20:51  
   Lecture 5: Software Inspections                                                                                                       | Lecture  | 00:16:56  
-    Video 1: Test Inspections Transcript                                                                                                | Video    | 00:16:56  
+    Video 1: Test Inspections                                                                                                           | Video    | 00:16:56  
   Lecture 6: Causal Analysis                                                                                                            | Lecture  | 00:31:38  
     Video 1: Causal Analysis                                                                                                            | Video    | 00:18:22  
     Video 2: Evaluating a Corpus of Root Causes and Measures to Guide RCA Processes in Critical Software: Review of Reading             | Video    | 00:13:15  
   Lecture 7: Test Maturity Model                                                                                                        | Lecture  | 00:12:52  
-    Video 1: Test Maturity Model Transcript                                                                                             | Video    | 00:12:52  
+    Video 1: Test Maturity Model                                                                                                        | Video    | 00:12:52  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
