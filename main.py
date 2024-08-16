@@ -323,7 +323,7 @@ def main():
                 video["length"] = parse_last_timestamp(
                     transcript_content, video.get("transcript_type")
                 )
-                
+
     display_course_summary(course_modules)
 
 
