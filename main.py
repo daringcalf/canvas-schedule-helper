@@ -160,20 +160,15 @@ def get_url_content(url, cookies):
 
 
 def parse_last_timestamp(file_content, file_type):
-    if file_type == "srt":
-        # SRT timestamp format: 00:01:22,000 --> 00:01:24,400
-        time_pattern = re.compile(r"\d{2}:\d{2}:\d{2},\d{3}")
-    elif file_type == "vtt" or file_type == "unknown":
-        # VTT timestamp format: 00:01:22.000 --> 00:01:24.400
-        time_pattern = re.compile(r"\d{2}:\d{2}:\d{2}\.\d{3}")
-    else:
+    # raise error if file type is unexpected
+    if file_type not in ["srt", "vtt", "unknown"]:
         raise ValueError(f"Unknown file type: {file_type}")
-
+    
+    # SRT timestamp format: 00:01:22,000 --> 00:01:24,400
+    # VTT timestamp format: 00:01:22.000 --> 00:01:24.400
+    # VTT timestamp format: 00:01:22,000 --> 00:01:24,400 (also found in some VTT files)
+    time_pattern = re.compile(r"\d{2}:\d{2}:\d{2}[,|\.]\d{3}")
     timestamps = time_pattern.findall(file_content)
-    if not timestamps and file_type == "unknown":
-        # If no timestamps found and file type is unknown, try the SRT pattern
-        time_pattern = re.compile(r"\d{2}:\d{2}:\d{2},\d{3}")
-        timestamps = time_pattern.findall(file_content)
 
     if not timestamps:
         return None
@@ -328,7 +323,7 @@ def main():
                 video["length"] = parse_last_timestamp(
                     transcript_content, video.get("transcript_type")
                 )
-
+                
     display_course_summary(course_modules)
 
 
