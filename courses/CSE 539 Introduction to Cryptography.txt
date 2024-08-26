@@ -1,0 +1,109 @@
+*** Course Durations ***
+Module / Lecture / Video                                                                                                                | Type     | Duration  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 1: Introduction to Cryptography                                                                                                  | Module   | 03:09:34  
+  Lecture 1: Basic Concepts                                                                                                             | Lecture  | 02:00:25  
+    Video 1: Basic Concepts - Background                                                                                                | Video    | 00:12:59  
+    Video 2: Basic Concepts - Introduction to Cryptography                                                                              | Video    | 00:12:52  
+    Video 3: Basic Concepts - Good Crypto Bad Crypto                                                                                    | Video    | 00:15:23  
+    Video 4: Basic Concepts - Number Theory                                                                                             | Video    | 00:24:08  
+    Video 5: Basic Concepts - Large Numbers are Really Large                                                                            | Video    | 00:12:36  
+    Video 6: Basic Concepts - Random Numbers, Hash Functions, and Encryption                                                            | Video    | 00:30:42  
+    Video 7: Basic Concepts - Kerckhoffs’s Principle                                                                                    | Video    | 00:11:42  
+  Lecture 2: Encryption Basics                                                                                                          | Lecture  | 01:09:09  
+    Video 1: Encryption Basics - Encryption History                                                                                     | Video    | 00:15:32  
+    Video 2: Encryption Basics - Building Blocks for Encryption Algorithms                                                              | Video    | 00:18:13  
+    Video 3: Encryption Basics - Encryption Properties, Cryptanalysis, Steganography                                                    | Video    | 00:17:13  
+    Video 4: Encryption Basics - Modes of Encryption                                                                                    | Video    | 00:18:10  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 2: Building Blocks: Random Numbers, Hash Functions, Encryption                                                                   | Module   | 02:17:29  
+  Lecture 1: Random Numbers                                                                                                             | Lecture  | 00:55:22  
+    Video 1: Random Numbers - Introduction to Random Numbers                                                                            | Video    | 00:15:27  
+    Video 2: Random Numbers - Pseudo Random Numbers                                                                                     | Video    | 00:11:00  
+    Video 3: Random Numbers - Cryptographically Secure Random Numbers (CSPRN) and CSPRN Generators (CSPRNG) PH                          | Video    | 00:28:54  
+  Lecture 2: Hash Functions                                                                                                             | Lecture  | 00:54:00  
+    Video 1: Hash Functions - Cryptographic Hashes                                                                                      | Video    | 00:07:52  
+    Video 2: Hash Functions - Hash Functions and Properties                                                                             | Video    | 00:23:00  
+    Video 3: Hash Functions - Standard Hash Functions (MD-5 and SHA)                                                                    | Video    | 00:23:07  
+  Lecture 3: Birthday Attacks on Hash Functions                                                                                         | Lecture  | 00:28:06  
+    Video 1: Birthday Attacks on Hash Functions - Constructing and Preventing Birthday Attacks                                          | Video    | 00:13:47  
+    Video 2: Birthday Attacks on Hash Functions - Birthday Paradox                                                                      | Video    | 00:14:19  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3: Passwords: Storage and Security                                                                                               | Module   | 01:31:05  
+  Lecture 1: Password Insecurity                                                                                                        | Lecture  | 00:26:27  
+    Video 1: Password Insecurity - Password Vulnerabilities                                                                             | Video    | 00:14:17  
+    Video 2: Password Insecurity - Attacks on Passwords                                                                                 | Video    | 00:12:09  
+  Lecture 2: Password Storage                                                                                                           | Lecture  | 00:35:41  
+    Video 1: Password Storage - Password Storage                                                                                        | Video    | 00:17:50  
+    Video 2: Password Storage - Unix Password Storage                                                                                   | Video    | 00:17:50  
+  Lecture 3: Rainbow Tables                                                                                                             | Lecture  | 00:28:56  
+    Video 1: Rainbow Tables - Attacks Using Rainbow Tables                                                                              | Video    | 00:14:31  
+    Video 2: Rainbow Tables - Constructing Rainbow Tables                                                                               | Video    | 00:14:25  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 4: Authentication, Key Exchange, Public Keys and Man-in-the-Middle (MITM)                                                        | Module   | 02:57:01  
+  Lecture 1: Authentication                                                                                                             | Lecture  | 00:43:09  
+    Video 1: Authentication - Authentication - continued                                                                                | Video    | 00:22:05  
+    Video 2: Authentication - Authentication and Challenge Response                                                                     | Video    | 00:21:04  
+  Lecture 2: Key Exchange                                                                                                               | Lecture  | 00:16:47  
+    Video 1: Key Exchange - The Key Exchange Problem                                                                                    | Video    | 00:16:47  
+  Lecture 3: Diffie-Hellman Key Exchange                                                                                                | Lecture  | 00:55:45  
+    Video 1: Diffie-Hellman Key Exchange - The Diffie Hellman Algorithm                                                                 | Video    | 00:12:53  
+    Video 2: Diffie-Hellman Key Exchange - Diffie Hellman - continued                                                                   | Video    | 00:17:40  
+    Video 3: Diffie-Hellman Key Exchange - Elliptic Curve Cryptography (ECC) Algorithm                                                  | Video    | 00:25:11  
+  Lecture 4: Public Keys and Applications                                                                                               | Lecture  | 01:01:18  
+    Video 1: Public Keys and Applications - Public Keys and Applications                                                                | Video    | 00:17:19  
+    Video 2: Public Keys and Applications - MITM Attacks                                                                                | Video    | 00:22:14  
+    Video 3: Public Keys and Applications - Digital Signatures and Digital Certificates                                                 | Video    | 00:21:44  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 5: Cryptographic Protocols, Building Blocks, and Concepts                                                                        | Module   | 02:39:39  
+  Lecture 1: Secret Messaging                                                                                                           | Lecture  | 00:20:33  
+    Video 1: Secret Messaging - Secret Messaging                                                                                        | Video    | 00:20:33  
+  Lecture 2: Case Study: Kerberos                                                                                                       | Lecture  | 00:31:40  
+    Video 1: Kerberos - The Kerberos Protocol                                                                                           | Video    | 00:31:40  
+  Lecture 3: Public Key Infrastructure (PKI)                                                                                            | Lecture  | 00:49:36  
+    Video 1: Public Key Infrastructure (PKI) - Certificate Authorities (CA)                                                             | Video    | 00:23:18  
+    Video 2: Public Key Infrastructure (PKI) - Digital Signatures and Certificates                                                      | Video    | 00:26:17  
+  Lecture 4: Case Study: Secure Sockets Layer (SSL, or TLS)                                                                             | Lecture  | 00:57:48  
+    Video 1: Secure Sockets Layer (SSL, or TLS) - The TLS:SSL Protocol                                                                  | Video    | 00:21:48  
+    Video 2: Secure Sockets Layer (SSL, or TLS) - SSL Continued                                                                         | Video    | 00:24:34  
+    Video 3: Secure Sockets Layer (SSL, or TLS) - Certificates on the Web                                                               | Video    | 00:11:24  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 6: RSA and Number Theory                                                                                                         | Module   | 00:52:52  
+  Lecture 1: Primality Testing, Fast Exponentiation, and Computing Private Keys                                                         | Lecture  | 00:52:52  
+    Video 1: Primality Testing, Fast Exponentiation, and Computing Private Keys - Generating Private Keys                               | Video    | 00:10:17  
+    Video 2: Primality Testing, Fast Exponentiation, and Computing Private Keys - Fast Exponentiation                                   | Video    | 00:09:04  
+    Video 3: Primality Testing, Fast Exponentiation, and Computing Private Keys - Probabilistic Algorithms and Fermat’s Primality Test  | Video    | 00:12:48  
+    Video 4: Primality Testing, Fast Exponentiation, and Computing Private Keys - Miller-Rabin Primality Testing                        | Video    | 00:10:25  
+    Video 5: Primality Testing, Fast Exponentiation, and Computing Private Keys - Generating Private Keys                               | Video    | 00:10:17  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 7: Advanced Cryptographic Protocols                                                                                              | Module   | 02:26:49  
+  Lecture 1: Cut and Choose                                                                                                             | Lecture  | 01:20:20  
+    Video 1: Cut and Choose - Oblivious Transfer                                                                                        | Video    | 00:19:45  
+    Video 2: Cut and Choose - Graph Isomorphism and Zero Knowledge Proofs                                                               | Video    | 00:16:37  
+    Video 3: Cut and Choose - FFS Proof of Identity                                                                                     | Video    | 00:13:02  
+    Video 4: Cut and Choose - Blind Signatures                                                                                          | Video    | 00:13:31  
+    Video 5: Cut and Choose - Anonymous Money Orders                                                                                    | Video    | 00:17:22  
+  Lecture 2: Cryptographic Techniques                                                                                                   | Lecture  | 01:06:29  
+    Video 1: Cryptographic Techniques - Secret Splitting and Secret Sharing                                                             | Video    | 00:14:05  
+    Video 2: Cryptographic Techniques - Bit Commitment                                                                                  | Video    | 00:07:40  
+    Video 3: Cryptographic Techniques - Timestamping                                                                                    | Video    | 00:15:46  
+    Video 4: Cryptographic Techniques - Dining Cryptographers                                                                           | Video    | 00:07:55  
+    Video 5: Cryptographic Techniques - Commutative Encryption and Mental Poker                                                         | Video    | 00:21:02  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 8: Money and Politics                                                                                                            | Module   | 04:30:42  
+  Lecture 1: Politics and Cryptography                                                                                                  | Lecture  | 01:51:12  
+    Video 1: Politics and Cryptography - Encryption with Backdoors                                                                      | Video    | 00:24:45  
+    Video 2: Politics and Cryptography - Plausible Deniability and Perfect Forward Security                                             | Video    | 00:15:45  
+    Video 3: Politics and Cryptography - MITM attacks and Diffie Hellman                                                                | Video    | 00:10:49  
+    Video 4: Politics and Cryptography - The “Off the Record” Protocol                                                                  | Video    | 00:26:26  
+    Video 5: Politics and Cryptography - Secure Elections - Part 1                                                                      | Video    | 00:18:15  
+    Video 6: Politics and Cryptography - Secure Elections - Part 2                                                                      | Video    | 00:15:10  
+  Lecture 2: Cryptocurrency and Digital Cash                                                                                            | Lecture  | 02:39:30  
+    Video 1: Cryptocurrency and Digital Cash - Bitcoin and Blockchain                                                                   | Video    | 00:32:52  
+    Video 2: Cryptocurrency and Digital Cash - Digital Currency                                                                         | Video    | 00:20:42  
+    Video 3: Cryptocurrency and Digital Cash - Bitcoin and Blockchain                                                                   | Video    | 00:32:52  
+    Video 4: Cryptocurrency and Digital Cash - Simultaneous Contract Signing                                                            | Video    | 00:18:19  
+    Video 5: Cryptocurrency and Digital Cash - Digital Cash Protocols - Part 1                                                          | Video    | 00:21:26  
+    Video 6: Cryptocurrency and Digital Cash - Digital Cash Protocols - Part 2                                                          | Video    | 00:23:59  
+    Video 7: Cryptocurrency and Digital Cash - Wrap Up                                                                                  | Video    | 00:09:19  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
