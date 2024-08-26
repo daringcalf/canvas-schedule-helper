@@ -1,11 +1,14 @@
 from datetime import timedelta
 import json
+import logging
 import re
 from bs4 import BeautifulSoup
 import requests
 import sys
 from pathlib import Path
+import readline  # https://stackoverflow.com/questions/7357007/python-raw-input-limit-with-mac-os-x-terminal
 
+logging.basicConfig(level=logging.INFO)
 
 canvas_base_url = "https://canvas.asu.edu/"
 
@@ -103,7 +106,7 @@ def parse_lecture_page(lecture_page_html):
                 body = env_dict["WIKI_PAGE"]["body"]
                 break
             except json.JSONDecodeError as e:
-                print("Error decoding JSON", e)
+                logging.error(f"Error decoding JSON: {e}")
                 continue
 
     soup = BeautifulSoup(body, "html.parser")
@@ -156,7 +159,7 @@ def get_url_content(url, cookies):
     if cookies is None:
         raise ValueError("No cookies provided")
 
-    print("downloading... ", url)
+    logging.info(f"downloading... {url}")
     response = requests.get(url, headers={"Cookie": cookies})
     return response.text
 
@@ -165,7 +168,7 @@ def parse_last_timestamp(file_content, file_type):
     # raise error if file type is unexpected
     if file_type not in ["srt", "vtt", "unknown"]:
         raise ValueError(f"Unknown file type: {file_type}")
-    
+
     # SRT timestamp format: 00:01:22,000 --> 00:01:24,400
     # VTT timestamp format: 00:01:22.000 --> 00:01:24.400
     # VTT timestamp format: 00:01:22,000 --> 00:01:24,400 (also found in some VTT files)
@@ -261,12 +264,23 @@ def parse_arguments(args):
 def main():
     args = parse_arguments(sys.argv[1:])
     course_id = args.get("course_id")
-    cookies = args.get("cookies")
+
+    while not course_id:
+        course_id = input("Enter course ID: ").strip()
+
+    cookies = input("Enter cookies: ").strip()
+    while not cookies:
+        answer = (
+            input("No cookies provided, are you sure you want to continue? [y/n] ")
+            .strip()
+            .lower()
+        )
+        if answer.startswith("y"):
+            break
+
+        cookies = input("Enter cookies: ").strip()
 
     cache_dir = "cache"
-
-    if not course_id:
-        sys.exit("Usage: python main.py course_id='...' cookies='...'")
 
     course_url = f"https://canvas.asu.edu/courses/{course_id}/modules"
 
@@ -276,18 +290,34 @@ def main():
     modules_page_html = ""
 
     if not transcript_dir.is_dir():
-        print(f"Creating directory for course {course_id}")
+        logging.debug(f"Creating directory for course {course_id}")
         transcript_dir.mkdir(parents=True, exist_ok=True)
+
+    modules_page_html_valid = False
 
     if modules_page_path.is_file():
         with open(modules_page_path, "r") as file:
             modules_page_html = file.read()
-    else:
+
+            if "Course Modules" in modules_page_html:
+                modules_page_html_valid = True
+
+    if not modules_page_html_valid:
         modules_page_html = get_url_content(course_url, cookies)
+
+        if "Course Modules" not in modules_page_html:
+            logging.error(
+                "the downloaded modules page is not valid, maybe the cookies are expired."
+            )
+            exit()
+
         with open(modules_page_path, "w") as file:
             file.write(modules_page_html)
 
     course_modules = parse_course_page(modules_page_html)
+
+    if not course_modules:
+        sys.exit("No course modules found")
 
     for module in course_modules:
         for lecture in module.get("lectures", []):
@@ -295,12 +325,32 @@ def main():
             lecture_html_path = course_dir / sanitize_filename(
                 f"{lecture.get('title')}.html"
             )
+
+            # Check if the lecture HTML file is valid
+            # if the file is not valid, download and save the HTML file
+            lecture_html_valid = False
+
             if lecture_html_path.is_file():
+                logging.info(f"cache found: {lecture_html_path}")
                 with open(lecture_html_path, "r") as file:
                     lecture_html = file.read()
-            else:
+                    if "Lecture Playlist" in lecture_html:
+                        lecture_html_valid = True
+                    else:
+                        logging.warning(
+                            f'cached file "{lecture_html_path}" is not valid (Course ID: {course_id})'
+                        )
+
+            if not lecture_html_valid:
                 lecture_html = get_url_content(lecture.get("link"), cookies)
-                with open(lecture_html_path, "w", encoding='utf-8') as file:
+
+                if "Lecture Playlist" not in lecture_html:
+                    logging.error(
+                        "the downloaded lecture page is not valid, maybe the cookies are expired."
+                    )
+                    exit()
+
+                with open(lecture_html_path, "w", encoding="utf-8") as file:
                     file.write(lecture_html)
 
             lecture["videos"] = parse_lecture_page(lecture_html)
