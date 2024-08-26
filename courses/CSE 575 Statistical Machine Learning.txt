@@ -1,0 +1,73 @@
+*** Course Durations ***
+Module / Lecture / Video                                                                                                                | Type     | Duration  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 1: Introduction to Machine Learning                                                                                              | Module   | 00:43:36  
+  Lecture 1: Introduction to Machine Learning                                                                                           | Lecture  | 00:24:31  
+    Video 1: Introduction to Machine Learning                                                                                           | Video    | 00:24:31  
+  Lecture 2: Machine Learning Examples                                                                                                  | Lecture  | 00:19:04  
+    Video 1: Introduction to Machine Learning: Applications                                                                             | Video    | 00:19:04  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 2: Mathematical Foundations and Supervised Learning                                                                              | Module   | 02:17:09  
+  Lecture 1: Mathematical Foundations                                                                                                   | Lecture  | 01:26:02  
+    Video 1: Review of Mathematical Foundations Part 1a                                                                                 | Video    | 00:10:31  
+    Video 2: Review of Mathematical Foundations Part 1b                                                                                 | Video    | 00:18:47  
+    Video 3: Review Probability Theory                                                                                                  | Video    | 00:20:51  
+    Video 4: Review: Random Variables and their Distributions                                                                           | Video    | 00:20:02  
+    Video 5: Common Densities in Machine Learning                                                                                       | Video    | 00:15:48  
+  Lecture 2: Supervised Learning - Naive Bayes & Logistic Regression (Part 1)                                                           | Lecture  | 00:51:07  
+    Video 1: Setup of Supervised Learning_Regression                                                                                    | Video    | 00:16:38  
+    Video 2: Classification & Density Estimation                                                                                        | Video    | 00:23:30  
+    Video 3: Generative & Discriminative Models                                                                                         | Video    | 00:10:58  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3: Supervised Learning, Linear Machines, and Support Vector Machines                                                             | Module   | 00:55:29  
+  Lecture 1: Supervised Learning - Naive Bayes & Logistic Regression (Part 2)                                                           | Lecture  | 00:28:15  
+    Video 1: Naive Bayes Classifier                                                                                                     | Video    | 00:12:48  
+    Video 2: Logistic Regression                                                                                                        | Video    | 00:15:27  
+  Lecture 2: Linear Machines and SVM (Part 1 and Part 2)                                                                                | Lecture  | 00:27:13  
+    Video 1: Linear Machines - Part 1: Basics                                                                                           | Video    | 00:13:57  
+    Video 2: Linear Machines - Part 2: The Concept of Margins                                                                           | Video    | 00:13:15  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 4: Linear Machines, SVM, and Graphical Models                                                                                    | Module   | 01:45:27  
+  Lecture 1: Linear Machines and SVM (Part 3 and Part 4)                                                                                | Lecture  | 00:35:46  
+    Video 1: SVM - Part 3: Linearly-Separable Case                                                                                      | Video    | 00:19:46  
+    Video 2: SVM - Part 4: Noan-Linearly-Separable Case                                                                                 | Video    | 00:15:59  
+  Lecture 2: Graphical Models                                                                                                           | Lecture  | 01:09:41  
+    Video 1: CSE575-S05V08-U5M1-Graphical Models -  Bayesian Networks (eng)                                                             | Video    | 00:19:25  
+    Video 2: Hidden Markov Models: Formulation                                                                                          | Video    | 00:24:11  
+    Video 3: Hidden Markov Models - Learning & Interface                                                                                | Video    | 00:26:04  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 5: Unsupervised Learning and Clustering                                                                                          | Module   | 01:27:46  
+  Lecture 1: Unsupervised Learning and Data Clustering                                                                                  | Lecture  | 01:13:35  
+    Video 1: Set-up of the Unsupervised Learning Problem                                                                                | Video    | 00:14:53  
+    Video 2: Gaussian Mixture Models and the EM Algorithm                                                                               | Video    | 00:16:45  
+    Video 3: The K-Means Algorithm                                                                                                      | Video    | 00:20:58  
+    Video 4: Analyzing the K-Means Algorithm                                                                                            | Video    | 00:20:58  
+  Lecture 2: Spectral Clustering (Part 1)                                                                                               | Lecture  | 00:14:10  
+    Video 1: Spectral Clustering: Introduction                                                                                          | Video    | 00:14:10  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 6: Spectral Clustering and Dimensional Reduction                                                                                 | Module   | 01:07:15  
+  Lecture 1: Spectral Clustering (Part 2)                                                                                               | Lecture  | 00:51:58  
+    Video 1: Graph Cut Formulation                                                                                                      | Video    | 00:17:37  
+    Video 2: Going Beyond MinCut                                                                                                        | Video    | 00:17:31  
+    Video 3: Practical Considerations in Implementation                                                                                 | Video    | 00:16:50  
+  Lecture 2: Dimensionality Reduction (Part 1)                                                                                          | Lecture  | 00:15:17  
+    Video 1: Introduction to the Problem of Dimensionality Reduction                                                                    | Video    | 00:15:17  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 7: Dimensional Reduction, Neural Networks, Deep Learning, and Exemplar Applications                                              | Module   | 03:09:53  
+  Lecture 1: Dimensionality Reduction (Part 2)                                                                                          | Lecture  | 00:32:19  
+    Video 1: Principal Component Analysis: The Basic Idea                                                                               | Video    | 00:16:44  
+    Video 2: PCA: The Algorithm and Further Discussion                                                                                  | Video    | 00:15:34  
+  Lecture 2: Neural Networks & Deep Learning                                                                                            | Lecture  | 01:43:48  
+    Video 1: Introduction to Neural Networks and Deep Learning - Part 1                                                                 | Video    | 00:13:16  
+    Video 2: Introduction to Neural Networks and Deep Learning - Part 2                                                                 | Video    | 00:10:36  
+    Video 3: Introduction to Neural Networks and Deep Learning - Part 3                                                                 | Video    | 00:10:45  
+    Video 4: Key Enabling Techniques for Deep Learning                                                                                  | Video    | 00:41:21  
+    Video 5: Some Basic Deep Architectures - Part 1                                                                                     | Video    | 00:08:36  
+    Video 6: Some Basic Deep Architectures - Part 2                                                                                     | Video    | 00:19:13  
+  Lecture 3: Exemplar Deep Learning Applications                                                                                        | Lecture  | 00:51:01  
+    Video 1: Deep Learning for Image-Based Recognition                                                                                  | Video    | 00:17:59  
+    Video 2: Deep Learning for Video-Based Recognition                                                                                  | Video    | 00:13:57  
+    Video 3: Generative Adversarial Networks and their Applications                                                                     | Video    | 00:19:04  
+  Lecture 4: Industry Perspective Wrap-Up                                                                                               | Lecture  | 00:02:44  
+    Video 1: Industry Perspective - Time Series Forecasting & NLP                                                                       | Video    | 00:02:44  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
