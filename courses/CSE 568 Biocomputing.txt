@@ -34,8 +34,8 @@ Module 5: Social Insects and Collective Computation                             
   Lecture 1: Social Insects and Collective Computation                                                                                  | Lecture  | 02:19:38  
     Video 1: Collective Cognition in Ant Societies (Stephen Pratt)                                                                      | Video    | 00:56:11  
     Video 2: Applications Ant Colony Optimization                                                                                       | Video    | 00:19:19  
-    Video 3: Applications Turtle Ants and Network Route Repair_Trancript                                                                | Video    | 00:27:22  
-    Video 4: Guest Lecture Josh Daymude- Designing Collective Computation for Swarm Robotics_Trancript                                  | Video    | 00:36:44  
+    Video 3: Applications Turtle Ants and Network Route Repair                                                                          | Video    | 00:27:22  
+    Video 4: Guest Lecture Josh Daymude- Designing Collective Computation for Swarm Robotics                                            | Video    | 00:36:44  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Module 6: Biological Perspective on Neurocomputing                                                                                      | Module   | 01:41:05  
   Lecture 1: Guest Lectures                                                                                                             | Lecture  | 01:41:05  
@@ -45,5 +45,5 @@ Module 6: Biological Perspective on Neurocomputing                              
 Module 7: Frontiers of Bio-Inspired Computation                                                                                         | Module   | 00:41:18  
   Lecture 1: Frontiers of Bio-Inspired Computation                                                                                      | Lecture  | 00:41:18  
     Video 1: Melanie Moses Guest Lecture “Scaling in Biology and Computation”                                                           | Video    | 00:32:05  
-    Video 2: The Frontier_Trancript                                                                                                     | Video    | 00:09:12  
+    Video 2: The Frontier                                                                                                               | Video    | 00:09:12  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
