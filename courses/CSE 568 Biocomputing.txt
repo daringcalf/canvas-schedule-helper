@@ -1,0 +1,49 @@
+Module / Lecture / Video                                                                                                                | Type     | Duration  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 1: Evolution                                                                                                                     | Module   | 01:29:46  
+  Lecture 1: Biological Underpinnings                                                                                                   | Lecture  | 00:43:20  
+    Video 1: Biological Underpinnings pt.1                                                                                              | Video    | 00:26:45  
+    Video 2: Biological Underpinnings pt.2                                                                                              | Video    | 00:16:34  
+  Lecture 2: Evolutionary Computation and Genetic Programming                                                                           | Lecture  | 00:46:25  
+    Video 1: Genetic Algorithms Introduction                                                                                            | Video    | 00:19:52  
+    Video 2: Evolutionary Computation Problem Solving with Genetic Algorithms                                                           | Video    | 00:16:15  
+    Video 3: Genetic Programming                                                                                                        | Video    | 00:10:18  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 2: Evolutionary Algorithms                                                                                                       | Module   | 03:50:48  
+  Lecture 1: Mathematical Models: Search Spaces and Biased Sampling, Algorithms for Recombination, Selection and Mutation               | Lecture  | 01:36:48  
+    Video 1: Implementing Genetic Algorithms                                                                                            | Video    | 00:36:47  
+    Video 2: Genetic Algorithms Theory                                                                                                  | Video    | 00:40:14  
+    Video 3: Using Genetic Algorithms to Solve Sequencing Problems                                                                      | Video    | 00:19:45  
+  Lecture 2: Applications in Software Engineering and Artificial Intelligence                                                           | Lecture  | 02:14:00  
+    Video 1: Evolutionary Computation Case Study Evolving Software                                                                      | Video    | 00:51:09  
+    Video 2: Guest Lecture Risto Miikkulainen Automatically Evolving Neural Networks Architecture, Pt 1                                 | Video    | 00:50:36  
+    Video 3: Guest Lecture Risto Miikkulainen Automatically Evolving Neural Networks Architecture, Pt 2                                 | Video    | 00:32:15  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3: Immunology I                                                                                                                  | Module   | 01:46:58  
+  Lecture 1: Immunology                                                                                                                 | Lecture  | 01:46:58  
+    Video 1: Guest Lecture Karen Anderson (ASU) Immunology for dummies                                                                  | Video    | 01:06:11  
+    Video 2: Immunology a Computational Perspective                                                                                     | Video    | 00:40:47  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 4: Immunology II (Cyber-Bio)                                                                                                     | Module   | 01:46:38  
+  Lecture 1: Negative Selection Algorithm                                                                                               | Lecture  | 01:46:38  
+    Video 1: Computational Immunology and Negative Selection                                                                            | Video    | 00:34:13  
+    Video 2: Applications Cybersecurity                                                                                                 | Video    | 00:41:25  
+    Video 3: Other Biological Defense Systems and their Applications                                                                    | Video    | 00:30:59  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 5: Social Insects and Collective Computation                                                                                     | Module   | 02:19:38  
+  Lecture 1: Social Insects and Collective Computation                                                                                  | Lecture  | 02:19:38  
+    Video 1: Collective Cognition in Ant Societies (Stephen Pratt)                                                                      | Video    | 00:56:11  
+    Video 2: Applications Ant Colony Optimization                                                                                       | Video    | 00:19:19  
+    Video 3: Applications Turtle Ants and Network Route Repair_Trancript                                                                | Video    | 00:27:22  
+    Video 4: Guest Lecture Josh Daymude- Designing Collective Computation for Swarm Robotics_Trancript                                  | Video    | 00:36:44  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 6: Biological Perspective on Neurocomputing                                                                                      | Module   | 01:41:05  
+  Lecture 1: Guest Lectures                                                                                                             | Lecture  | 01:41:05  
+    Video 1: Melanie Mitchell Guest Lecture “Why AI is Harder than you Think”                                                           | Video    | 00:48:45  
+    Video 2: Saket Navlakha Guest Lecture “A Neural Algorithm for Similarity Search”                                                    | Video    | 00:52:20  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 7: Frontiers of Bio-Inspired Computation                                                                                         | Module   | 00:41:18  
+  Lecture 1: Frontiers of Bio-Inspired Computation                                                                                      | Lecture  | 00:41:18  
+    Video 1: Melanie Moses Guest Lecture “Scaling in Biology and Computation”                                                           | Video    | 00:32:05  
+    Video 2: The Frontier_Trancript                                                                                                     | Video    | 00:09:12  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
