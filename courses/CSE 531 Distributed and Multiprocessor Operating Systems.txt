@@ -1,0 +1,57 @@
+Module / Lecture / Video                                                                                                                | Type     | Duration  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 1: Introduction to Distributed and Multiprocessor Operating Systems                                                              | Module   | 03:14:46  
+  Lecture 1: Definition of Distributed Systems                                                                                          | Lecture  | 00:40:51  
+    Video 1: Definition of Distributed Systems                                                                                          | Video    | 00:26:54  
+    Video 2: Middleware                                                                                                                 | Video    | 00:13:56  
+  Lecture 2: Design Goals                                                                                                               | Lecture  | 01:56:22  
+    Video 1: Design Goals Part 1                                                                                                        | Video    | 00:08:47  
+    Video 2: Design Goals Part 2                                                                                                        | Video    | 00:25:13  
+    Video 3: Design Goals Part 3                                                                                                        | Video    | 00:36:24  
+    Video 4: Distribution Transparency Part 1                                                                                           | Video    | 00:18:43  
+    Video 5: Distribution Transparency Part 2                                                                                           | Video    | 00:27:13  
+  Lecture 3: Types of Distributed Systems                                                                                               | Lecture  | 00:37:31  
+    Video 1: Types of Distributed Systems                                                                                               | Video    | 00:37:31  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 2: Architecture                                                                                                                  | Module   | 01:23:29  
+  Lecture 1: System Architecture                                                                                                        | Lecture  | 00:36:36  
+    Video 1: System Architecture                                                                                                        | Video    | 00:36:36  
+  Lecture 2: Example Architecture                                                                                                       | Lecture  | 00:46:53  
+    Video 1: Example Architectures                                                                                                      | Video    | 00:30:19  
+    Video 2: Example Architectures of Distributed Systems                                                                               | Video    | 00:16:33  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3: Communication and Coordination Part 1                                                                                         | Module   | 01:26:57  
+  Lecture 1: Foundations of Communication                                                                                               | Lecture  | 00:27:13  
+    Video 1: Foundations of Communications                                                                                              | Video    | 00:27:13  
+  Lecture 2: Remote Procedure Call                                                                                                      | Lecture  | 00:26:52  
+    Video 1: Remote Procedure Call                                                                                                      | Video    | 00:26:52  
+  Lecture 3: Message Oriented Communication                                                                                             | Lecture  | 00:32:52  
+    Video 1: Message Oriented Communication                                                                                             | Video    | 00:11:23  
+    Video 2: Message Passing Interface                                                                                                  | Video    | 00:21:28  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 4: Communication and Coordination Part 2                                                                                         | Module   | 00:36:34  
+  Lecture 1: Clock Synchronization                                                                                                      | Lecture  | 00:36:34  
+    Video 1: Clock Synchronization Part 1                                                                                               | Video    | 00:19:52  
+    Video 2: Clock Synchronization Part 2                                                                                               | Video    | 00:16:41  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 5: Communication and Coordination Part 3                                                                                         | Module   | 01:03:29  
+  Lecture 1: Logical Clocks                                                                                                             | Lecture  | 01:03:29  
+    Video 1: Logical Clocks Part 1                                                                                                      | Video    | 00:19:45  
+    Video 2: Logical Clocks Part 2                                                                                                      | Video    | 00:26:21  
+    Video 3: Total Ordered Multicasting                                                                                                 | Video    | 00:17:22  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 6: Consistency and Replication Part 1                                                                                            | Module   | 02:02:20  
+  Lecture 1: Introduction to Consistency and Replication                                                                                | Lecture  | 00:12:00  
+    Video 1: Introduction to Consistency and Replication                                                                                | Video    | 00:12:00  
+  Lecture 2: Data Centric Consistency Models                                                                                            | Lecture  | 01:50:19  
+    Video 1: Data Centric Consistency Models                                                                                            | Video    | 00:10:39  
+    Video 2: Sequential Consistency                                                                                                     | Video    | 00:21:03  
+    Video 3: Causal Consistency                                                                                                         | Video    | 00:36:54  
+    Video 4: Entry Consistency                                                                                                          | Video    | 00:31:03  
+    Video 5: Eventual Consistency                                                                                                       | Video    | 00:10:38  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 7: Consistency and Replication Part 2                                                                                            | Module   | 00:51:44  
+  Lecture 1: Client-Centric Consistency                                                                                                 | Lecture  | 00:51:44  
+    Video 1: Client-Centric Consistency Models Part 1                                                                                   | Video    | 00:12:42  
+    Video 2: Client-Centric Consistency Models Part 2                                                                                   | Video    | 00:39:01  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
