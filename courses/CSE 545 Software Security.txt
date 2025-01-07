@@ -1,0 +1,101 @@
+Module / Lecture / Video                                                                                                                | Type     | Duration
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 1: Introduction to Software Security                                                                                             | Module   | 01:35:43
+  Lecture 1: Introduction to Software Security                                                                                          | Lecture  | 00:34:11
+    Video 1: Software Security                                                                                                          | Video    | 00:19:20
+    Video 2: DEF CON Interview: What is a hacker?                                                                                       | Video    | 00:03:32
+    Video 3: DEF CON Interview: How did you get started in security and hacking?                                                        | Video    | 00:09:17
+    Video 4: DEF CON Interview: What are the skills you are using or developing in a CTF?                                               | Video    | 00:02:01
+  Lecture 2: History of Software Security                                                                                               | Lecture  | 00:34:50
+    Video 1: History of the Internet                                                                                                    | Video    | 00:11:38
+    Video 2: Notable Hacking Incidents: Phone Phreaking                                                                                 | Video    | 00:04:32
+    Video 3: Notable Hacking Incidents: The German Hacker Incident                                                                      | Video    | 00:05:14
+    Video 4: Notable Hacking Incidents: Internet Worm                                                                                   | Video    | 00:05:53
+    Video 5: Notable Hacking Incidents: Vitek Boden                                                                                     | Video    | 00:02:33
+    Video 6: DEF CON Interview: Have you ever stumbled on a security incident accidentally? What happened?                              | Video    | 00:02:00
+    Video 7: DEF CON Interview: Can you describe a security incident that you've seen first-hand, and what was your role in the response? | Video    | 00:02:59
+  Lecture 3: Ethics of Software Security                                                                                                | Lecture  | 00:26:42
+    Video 1: Ethics - Part 1                                                                                                            | Video    | 00:07:30
+    Video 2: Ethics - Part 2                                                                                                            | Video    | 00:15:56
+    Video 3: DEF CON Interview: What's your view on vulnerability disclosure?                                                           | Video    | 00:03:15
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 2: Network Security Part 1                                                                                                       | Module   | 00:48:47
+  Lecture 1: Local Area Network Attacks                                                                                                 | Lecture  | 00:48:47
+    Video 1: Sniffing                                                                                                                   | Video    | 00:18:46
+    Video 2: DEF CON Interview: What is the best or most interesting CTF challenge you've solved or not solved?                         | Video    | 00:07:22
+    Video 3: ARP Spoofing                                                                                                               | Video    | 00:14:23
+    Video 4: Detecting Sniffers and Controlling Network Access                                                                          | Video    | 00:08:15
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3: Network Security Part 2                                                                                                       | Module   | 01:49:24
+  Lecture 1: Wide Area Network Attacks                                                                                                  | Lecture  | 01:49:24
+    Video 1: IP Fragmentation                                                                                                           | Video    | 00:09:27
+    Video 2: ICMP Echo Attacks                                                                                                          | Video    | 00:21:12
+    Video 3: IP Attacks                                                                                                                 | Video    | 00:09:27
+    Video 4: UDP Attacks                                                                                                                | Video    | 00:13:56
+    Video 5: TCP Overview                                                                                                               | Video    | 00:13:23
+    Video 6: TCP Attacks - Part 1                                                                                                       | Video    | 00:09:27
+    Video 7: TCP Attacks - Part 2                                                                                                       | Video    | 00:12:50
+    Video 8: OS Fingerprinting                                                                                                          | Video    | 00:05:03
+    Video 9: DOS Attacks                                                                                                                | Video    | 00:13:19
+    Video 10: DEF CON Interview: How do you approach security in Attack/Defense CTFs?                                                   | Video    | 00:01:16
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 4: Application Security Part 1                                                                                                   | Module   | 01:27:00
+  Lecture 1: Overview of Application Security                                                                                           | Lecture  | 00:35:25
+    Video 1: Overview of Application Security                                                                                           | Video    | 00:35:25
+  Lecture 2: UNIX Security                                                                                                              | Lecture  | 00:32:42
+    Video 1: DEF CON Interview: What is the smallest security flaw you've seen leading to the biggest compromise?                       | Video    | 00:07:05
+    Video 2: UNIX Security                                                                                                              | Video    | 00:25:36
+  Lecture 3: Reverse Engineering                                                                                                        | Lecture  | 00:18:52
+    Video 1: Reverse Engineering                                                                                                        | Video    | 00:14:59
+    Video 2: DEF CON Interview: How do you approach reverse engineering challenges in CTF?                                              | Video    | 00:03:52
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 5: Application Security Part 2                                                                                                   | Module   | 04:55:34
+  Lecture 1: Application Vulnerabilities                                                                                                | Lecture  | 04:55:34
+    Video 1: Application Vulnerability Analysis                                                                                         | Video    | 00:05:13
+    Video 2: File Access and Command Injection Vulnerabilities                                                                          | Video    | 00:36:34
+    Video 3: Buffer Overflow Vulnerabilities                                                                                            | Video    | 00:19:37
+    Video 4: DEF CON Interview: Can you describe your first time exploiting or attempting to exploit a buffer overflow?                 | Video    | 00:02:20
+    Video 5: System V Calling Convention                                                                                                | Video    | 00:15:41
+    Video 6: Smashing the Stack                                                                                                         | Video    | 00:20:33
+    Video 7: Memory Corruption Exploitation                                                                                             | Video    | 00:32:27
+    Video 8: Generalized Memory Corruption                                                                                              | Video    | 00:20:33
+    Video 9: Format String Vulnerabilities                                                                                              | Video    | 00:21:38
+    Video 10: Defending Against Memory Corruption                                                                                       | Video    | 00:16:26
+    Video 11: ASLR and ROP                                                                                                              | Video    | 00:24:18
+    Video 12: Stack Canaries and Control-Flow Integrity                                                                                 | Video    | 00:16:00
+    Video 13: Introduction to Heaps                                                                                                     | Video    | 00:17:35
+    Video 14: Heap Overflows                                                                                                            | Video    | 00:19:23
+    Video 15: Use-After-Free                                                                                                            | Video    | 00:18:07
+    Video 16: Metadata Corruption                                                                                                       | Video    | 00:04:34
+    Video 17: Metasploit                                                                                                                | Video    | 00:04:28
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 6: Web Security Part 1                                                                                                           | Module   | 03:14:09
+  Lecture 1: Design of the Web                                                                                                          | Lecture  | 01:31:39
+    Video 1: History of the Web                                                                                                         | Video    | 00:11:38
+    Video 2: DEF CON Interview: In your experience, how has the web evolved? How has the evolution of the web impacted the web's security? | Video    | 00:09:42
+    Video 3: URI                                                                                                                        | Video    | 00:15:37
+    Video 4: HTTP                                                                                                                       | Video    | 00:26:44
+    Video 5: HTML                                                                                                                       | Video    | 00:27:56
+  Lecture 2: Web Applications                                                                                                           | Lecture  | 01:42:30
+    Video 1: Dynamic Websites                                                                                                           | Video    | 00:19:50
+    Video 2: Web Applications                                                                                                           | Video    | 00:17:21
+    Video 3: DEF CON Interview: What do you see as the major difference between binary applications and web applications?               | Video    | 00:05:47
+    Video 4: Databases                                                                                                                  | Video    | 00:15:01
+    Video 5: Introduction to JavaScript                                                                                                 | Video    | 00:24:24
+    Video 6: Asynchronous JavaScript Transcipt                                                                                          | Video    | 00:20:04
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 7: Web Security Part 2                                                                                                           | Module   | 02:41:40
+  Lecture 1: Web Vulnerabilities                                                                                                        | Lecture  | 02:41:40
+    Video 1: Modern Web Applications                                                                                                    | Video    | 00:10:36
+    Video 2: Tampering with Client-Side Information                                                                                     | Video    | 00:19:57
+    Video 3: Authentication and Authorization Attacks                                                                                   | Video    | 00:15:59
+    Video 4: Command Injection                                                                                                          | Video    | 00:14:57
+    Video 5: SQL Injection                                                                                                              | Video    | 00:21:02
+    Video 6: Advanced SQL Injection                                                                                                     | Video    | 00:15:32
+    Video 7: XSS                                                                                                                        | Video    | 00:13:11
+    Video 8: XSS Consequences                                                                                                           | Video    | 00:03:53
+    Video 9: XSS Prevention                                                                                                             | Video    | 00:07:28
+    Video 10: Cross Site Request Forgery                                                                                                | Video    | 00:12:32
+    Video 11: Clickjacking                                                                                                              | Video    | 00:07:28
+    Video 12: Logic Flaws                                                                                                               | Video    | 00:19:01
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
