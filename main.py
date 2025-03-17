@@ -116,6 +116,9 @@ def parse_lecture_page(lecture_page_html):
     for transcript_a in soup.find_all("a", class_="instructure_file_link"):
         full_title = transcript_a.get("title", transcript_a.text.strip())
 
+        if full_title.lower() == "link":
+            full_title = transcript_a.text.strip()
+
         if "." in full_title:
             transcript_type = full_title.split(".")[-1]
         else:
@@ -156,11 +159,17 @@ def parse_lecture_page(lecture_page_html):
 
 
 def get_url_content(url, cookies):
-    if cookies is None:
+    if len(cookies) == 0:
         raise ValueError("No cookies provided")
 
     logging.info(f"downloading... {url}")
-    response = requests.get(url, headers={"Cookie": cookies})
+    response = requests.get(
+        url,
+        headers={
+            "Cookie": cookies,
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36",
+        },
+    )
     return response.text
 
 
@@ -215,6 +224,7 @@ def display_course_summary(course_modules):
 
             for video in lecture.get("videos", []):
                 if video.get("length") is None:
+                    print(video.get("title"))
                     continue
                 lecture_duration += video.get("length", timedelta())
 
@@ -358,14 +368,13 @@ def main():
             for video in lecture.get("videos", []):
                 transcript_content = ""
                 transcript_path = transcript_dir / sanitize_filename(
-                    sanitize_filename(
-                        f"{video.get('title')}.{video.get('transcript_type')}"
-                    )
+                    f"{video.get('title')}.{video.get('transcript_type')}"
                 )
                 if transcript_path.is_file():
                     with open(transcript_path, "r") as file:
                         transcript_content = file.read()
                 else:
+                    logging.info(f"file not found: {transcript_path}")
                     transcript_content = get_url_content(
                         video.get("download_url"), cookies
                     )
@@ -375,6 +384,8 @@ def main():
                 video["length"] = parse_last_timestamp(
                     transcript_content, video.get("transcript_type")
                 )
+                logging.info(f"{video["title"]} - {video["length"]}")
+                # TODO: log error and set length to 0 if length is None
 
     display_course_summary(course_modules)
 
