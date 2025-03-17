@@ -1,0 +1,107 @@
+CSE 571: Artificial Intelligence
+
+Module / Lecture / Video                                                                                                    | Type     | Duration  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Module 1: Introduction to Machine Learning                                                                                  | Module   | 03:25:58  
+  Lecture 1: Introduction to Machine Learning                                                                               | Lecture  | 03:00:25  
+    Video 1: Machine Learning                                                                                               | Video    | 00:21:15  
+    Video 2: Introduction to Supervised Learning                                                                            | Video    | 00:31:00  
+    Video 3: Unsupervised Learning                                                                                          | Video    | 00:23:02  
+    Video 4: Reinforcement Learning                                                                                         | Video    | 00:17:22  
+    Video 5: Demonstration Robot Car Part 1                                                                                 | Video    | 00:01:50  
+    Video 6: Demonstration Robot Car Part 2                                                                                 | Video    | 00:01:21  
+    Video 7: Optimization and Gradient Descent                                                                              | Video    | 00:35:57  
+    Video 8: Variations of Gradient Descent                                                                                 | Video    | 00:29:17  
+    Video 9: Interview with Arye Barnehama Elementary Robotics                                                              | Video    | 00:19:16  
+  Lecture 2: Introduction to Quantum Machine Learning                                                                       | Lecture  | 00:25:32  
+    Video 1: Quantum Machine Learning Part 1                                                                                | Video    | 00:11:26  
+    Video 2: Quantum Machine Learning Part 2                                                                                | Video    | 00:14:06  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Module 2: Introduction to Neural Networks                                                                                   | Module   | 02:55:50  
+  Lecture 1: Introduction to Neural Networks                                                                                | Lecture  | 01:44:11  
+    Video 1: Artificial Neural Networks                                                                                     | Video    | 00:12:49  
+    Video 2: Perceptrons                                                                                                    | Video    | 00:09:57  
+    Video 3: Multilayer Perceptron                                                                                          | Video    | 00:11:27  
+    Video 4: Neural Network Example                                                                                         | Video    | 00:16:20  
+    Video 5: Neural Network In Practice                                                                                     | Video    | 00:08:55  
+    Video 6: Back Propagation                                                                                               | Video    | 00:16:10  
+    Video 7: Back Propagation In Depth                                                                                      | Video    | 00:28:31  
+  Lecture 2: Recent Advances in Machine Learning                                                                            | Lecture  | 00:35:05  
+    Video 1: Advances in Machine Learning                                                                                   | Video    | 00:32:05  
+    Video 2: Demonstration: Robot Hug                                                                                       | Video    | 00:01:17  
+    Video 3: Demonstration: Robot Arm                                                                                       | Video    | 00:01:42  
+  Lecture 3: Neural Network Applications in PyTorch                                                                         | Lecture  | 00:36:33  
+    Video 1: Best Practices for Training ANNs                                                                               | Video    | 00:13:17  
+    Video 2: Learning to Predict Collisions                                                                                 | Video    | 00:09:37  
+    Video 3: Introduction to PyTorch                                                                                        | Video    | 00:13:38  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3: Recurrent Neural Networks                                                                                         | Module   | 02:31:25  
+  Lecture 1: Recurrent Neural Networks                                                                                      | Lecture  | 01:54:25  
+    Video 1: Recurrent Neural Networks                                                                                      | Video    | 00:25:35  
+    Video 2: Understanding Vanishing Gradients                                                                              | Video    | 00:17:01  
+    Video 3: Dealing with the Vanishing Gradient                                                                            | Video    | 00:12:16  
+    Video 4: Long Short-Term Memory Networks                                                                                | Video    | 00:18:57  
+    Video 5: RNNs in PyTorch                                                                                                | Video    | 00:12:12  
+    Video 6: Modeling Sequential Data with an LSTM                                                                          | Video    | 00:14:37  
+    Video 7: RNN for Name Classification                                                                                    | Video    | 00:13:43  
+  Lecture 2: Dropout and Uncertainty                                                                                        | Lecture  | 00:36:59  
+    Video 1: Dropout                                                                                                        | Video    | 00:19:56  
+    Video 2: Modeling Uncertainty                                                                                           | Video    | 00:17:03  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Module 4: Convolutional Neural Networks                                                                                     | Module   | 02:14:22  
+  Lecture 1: Convolutional Neural Networks                                                                                  | Lecture  | 02:14:22  
+    Video 1: Convolutional Neural Networks - Part 1                                                                         | Video    | 00:21:13  
+    Video 2: Convolutional Neural Networks - Part 2                                                                         | Video    | 00:14:56  
+    Video 3: Convolutional Neural Networks - Part 3                                                                         | Video    | 00:14:17  
+    Video 4: Identifying Digits with a CNN                                                                                  | Video    | 00:25:24  
+    Video 5: Featured Presentation Detecting Novel Geology in Multispectral Images from Surface Exploration Mission         | Video    | 00:21:33  
+    Video 6: Featured Presentation Generalized Detection of Surface Feature Changes in Remote Sensing Images                | Video    | 00:13:36  
+    Video 7: Featured Presentation Machine Learning For Earth                                                               | Video    | 00:07:55  
+    Video 8: Featured Presentation Machine Learning for Facilitating Scientific Discovery in Planetary Exploration Missions | Video    | 00:04:49  
+    Video 9: Featured Presentation Mapping Geologic Features on Planetary Surfaces                                          | Video    | 00:10:34  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Module 5: Perception                                                                                                        | Module   | 03:05:07  
+  Lecture 1: Introduction to Perception in Robotics                                                                         | Lecture  | 00:18:41  
+    Video 1: Introduction to Perception in Robotics                                                                         | Video    | 00:18:41  
+  Lecture 2: Camera Geometry                                                                                                | Lecture  | 00:59:56  
+    Video 1: Introduction to Perception in Robotics                                                                         | Video    | 00:18:41  
+    Video 2: Cameras and Sensors                                                                                            | Video    | 00:11:36  
+    Video 3: Camera Model                                                                                                   | Video    | 00:12:17  
+    Video 4: Sensor Lidar                                                                                                   | Video    | 00:06:02  
+    Video 5: Sensor Infrared Camera                                                                                         | Video    | 00:05:18  
+    Video 6: Sensor Depth Sensor                                                                                            | Video    | 00:05:59  
+  Lecture 3: Multi-View Geometry                                                                                            | Lecture  | 00:48:35  
+    Video 1: Low to Mid-Level Vision                                                                                        | Video    | 00:09:05  
+    Video 2: Depth Estimation                                                                                               | Video    | 00:11:40  
+    Video 3: Optical Flow (Motion Estimation)                                                                               | Video    | 00:14:03  
+    Video 4: Structure from Motion (SfM)                                                                                    | Video    | 00:13:46  
+  Lecture 4: Feature Representation                                                                                         | Lecture  | 00:40:17  
+    Video 1: Machine Recognition                                                                                            | Video    | 00:10:28  
+    Video 2: Image Classification                                                                                           | Video    | 00:05:34  
+    Video 3: Object Detection                                                                                               | Video    | 00:06:05  
+    Video 4: Object Segmentation                                                                                            | Video    | 00:08:17  
+    Video 5: Image Captioning                                                                                               | Video    | 00:09:51  
+  Lecture 5: Machine Recognition                                                                                            | Lecture  | 00:17:36  
+    Video 1: Perception in Robotics                                                                                         | Video    | 00:17:36  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Module 6: Reasoning                                                                                                         | Module   | 01:01:50  
+  Lecture 1: Probability Theory                                                                                             | Lecture  | 00:20:15  
+    Video 1: Probability Theory Part 1                                                                                      | Video    | 00:10:40  
+    Video 2: Probability Theory Part 2                                                                                      | Video    | 00:09:34  
+  Lecture 2: Bayesian Networks                                                                                              | Lecture  | 00:41:35  
+    Video 1: Introduction to Bayesian Network Part 1                                                                        | Video    | 00:09:34  
+    Video 2: Introduction to Bayesian Network Part 2                                                                        | Video    | 00:12:50  
+    Video 3: Inference to Bayesian Network Part 1                                                                           | Video    | 00:09:15  
+    Video 4: Inference to Bayesian Network Part 2                                                                           | Video    | 00:09:54  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Module 7: Sequential Decision-Making                                                                                        | Module   | 02:04:35  
+  Lecture 1: Deterministic Planning                                                                                         | Lecture  | 00:48:17  
+    Video 1: Advanced Representations                                                                                       | Video    | 00:14:20  
+    Video 2: Using Relational Representations                                                                               | Video    | 00:14:22  
+    Video 3: Automated Search Control                                                                                       | Video    | 00:19:34  
+  Lecture 2: Planning Under Uncertainty                                                                                     | Lecture  | 01:16:17  
+    Video 1: Markov Decision Processes                                                                                      | Video    | 00:22:22  
+    Video 2: Solving MDPs                                                                                                   | Video    | 00:23:10  
+    Video 3: Introduction to Reinforcement Learning                                                                         | Video    | 00:13:22  
+    Video 4: Reinforcement Learning                                                                                         | Video    | 00:17:22  
+-------------------------------------------------------------------------------------------------------------------------------------------------

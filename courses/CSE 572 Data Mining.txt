@@ -1,0 +1,98 @@
+CSE 572: Data Mining
+
+Module / Lecture / Video                                               | Type     | Duration  
+--------------------------------------------------------------------------------------------
+Module 1: Core Concepts of Data Mining                                 | Module   | 02:36:11  
+  Lecture 1: History and Purpose of Data Mining                        | Lecture  | 00:38:28  
+    Video 1: Why Mine Data                                             | Video    | 00:15:35  
+    Video 2: Introduction to Data Mining                               | Video    | 00:22:53  
+  Lecture 2: Data Attributes Needed for Data Mining                    | Lecture  | 01:32:52  
+    Video 1: Introduction to Data Attributes                           | Video    | 00:12:26  
+    Video 2: Types of Data Attributes                                  | Video    | 00:13:08  
+    Video 3: Types of Data                                             | Video    | 00:08:53  
+    Video 4: Data Preprocessing                                        | Video    | 00:17:32  
+    Video 5: Dimensionality Reduction                                  | Video    | 00:13:51  
+    Video 6: Dimensionality Reduction Example                          | Video    | 00:21:19  
+    Video 7: Distance Measures                                         | Video    | 00:05:40  
+  Lecture 3: Review of Initial Data Exploration Techniques             | Lecture  | 00:24:50  
+    Video 1: Similarity Measures                                       | Video    | 00:10:33  
+    Video 2: Correlation                                               | Video    | 00:14:17  
+--------------------------------------------------------------------------------------------
+Module 2: Existing Techniques - Classification                         | Module   | 03:34:56  
+  Lecture 1: Introduction to Classification                            | Lecture  | 00:10:11  
+    Video 1: Introduction to Classification                            | Video    | 00:10:11  
+  Lecture 2: Introduction to Classification Tasks                      | Lecture  | 01:22:41  
+    Video 1: Decision Trees                                            | Video    | 00:21:28  
+    Video 2: Test Conditions                                           | Video    | 00:15:10  
+    Video 3: Introduction to Measures of Node Impurity                 | Video    | 00:10:54  
+    Video 4: Measures of Node Impurity: Entropy                        | Video    | 00:13:12  
+    Video 5: Measures of Node Impurity: GINI Index                     | Video    | 00:14:56  
+    Video 6: Stopping Criteria for Tree Induction                      | Video    | 00:07:00  
+  Lecture 3: Classification Issues                                     | Lecture  | 02:02:03  
+    Video 1: Practical Issues of Classification                        | Video    | 00:06:34  
+    Video 2: Estimating Generalization Errors                          | Video    | 00:20:45  
+    Video 3: (error, ignore this line)                                 | Video    | 00:15:26  
+    Video 4: Generalization: The Bias Variance Tradeoff                | Video    | 00:15:26  
+    Video 5: The Bias Variance Tradeoff                                | Video    | 00:16:46  
+    Video 6: Evaluation                                                | Video    | 00:47:04  
+--------------------------------------------------------------------------------------------
+Module 3: Alternative Classification Techniques                        | Module   | 02:58:37  
+  Lecture 1: Alternative Data Mining Techniques                        | Lecture  | 01:06:07  
+    Video 1: Instance-based Classifier                                 | Video    | 00:16:21  
+    Video 2: Bayes Classifier                                          | Video    | 00:21:43  
+    Video 3: Bayes Classifier Example                                  | Video    | 00:14:21  
+    Video 4: Naive Bayes Classifier                                    | Video    | 00:13:40  
+  Lecture 2: Artificial Neural Networks                                | Lecture  | 01:01:27  
+    Video 1: Artificial Neural Networks Basics                         | Video    | 00:24:28  
+    Video 2: Perceptron Learning Algorithm                             | Video    | 00:13:58  
+    Video 3: Artificial Neural Networks Learning with Backpropogation  | Video    | 00:23:01  
+  Lecture 3: Support Vector Machines                                   | Lecture  | 00:51:02  
+    Video 1: Linear SVM Problem Formulation                            | Video    | 00:17:56  
+    Video 2: Usage of Langrangian Multipliers                          | Video    | 00:08:05  
+    Video 3: Example of linear separable SVM                           | Video    | 00:03:15  
+    Video 4: Non-Separable SVM                                         | Video    | 00:04:57  
+    Video 5: Nonlinear SVM                                             | Video    | 00:16:47  
+--------------------------------------------------------------------------------------------
+Module 4: Clustering                                                   | Module   | 01:57:34  
+  Lecture 1: K Means Clustering                                        | Lecture  | 00:39:26  
+    Video 1: Introduction to Clustering                                | Video    | 00:18:56  
+    Video 2: KMeansAlgorithm                                           | Video    | 00:07:39  
+    Video 3: BisectingKMeans                                           | Video    | 00:12:50  
+  Lecture 2: Hierarchical Clustering                                   | Lecture  | 00:29:14  
+    Video 1: Non-Partitional Clustering                                | Video    | 00:14:35  
+    Video 2: Agglomerative Clustering                                  | Video    | 00:10:33  
+    Video 3: Performance Analysis                                      | Video    | 00:04:05  
+  Lecture 3: DBSCAN                                                    | Lecture  | 00:19:40  
+    Video 1: DBSCAN                                                    | Video    | 00:19:40  
+  Lecture 4: Cluster Validity                                          | Lecture  | 00:29:13  
+    Video 1: Introduction to Cluster Validity_.                        | Video    | 00:06:38  
+    Video 2: Supervised Cluster Validity                               | Video    | 00:02:45  
+    Video 3: Unsupervised Cluster Validity                             | Video    | 00:19:49  
+--------------------------------------------------------------------------------------------
+Module 5: Association Rule Mining                                      | Module   | 01:16:02  
+  Lecture 1: Introduction to Basic Concepts of Association Rule Mining | Lecture  | 00:29:25  
+    Video 1: Basic Concepts of Association Rule Mining                 | Video    | 00:15:18  
+    Video 2: Confidence and Support                                    | Video    | 00:14:07  
+  Lecture 2: Apriori Principle                                         | Lecture  | 00:46:37  
+    Video 1: Introduction to Apriori Principle                         | Video    | 00:10:16  
+    Video 2: Apriori Algorithm                                         | Video    | 00:23:02  
+    Video 3: Factors Affecting Complexity                              | Video    | 00:13:19  
+--------------------------------------------------------------------------------------------
+Module 6: Deep Learning                                                | Module   | 00:56:10  
+  Lecture 1: Deep Learning Introduction                                | Lecture  | 00:56:10  
+    Video 1: Introduction to Deep Learning                             | Video    | 00:14:41  
+    Video 2: Recommendation Systems                                    | Video    | 00:13:00  
+    Video 3: Restricted Boltzman Machine                               | Video    | 00:21:52  
+    Video 4: Autoencoders                                              | Video    | 00:06:36  
+--------------------------------------------------------------------------------------------
+Module 7: Reinforcement Learning                                       | Module   | 01:16:56  
+  Lecture 1: Markov Decision Process                                   | Lecture  | 00:30:04  
+    Video 1: Introduction to the Markov Decision Process               | Video    | 00:30:04  
+  Lecture 2: Reinforcement Learning                                    | Lecture  | 00:14:28  
+    Video 1: Introduction to Reinforcement Learning                    | Video    | 00:14:28  
+  Lecture 3: Solving Reinforcement Learning Problems                   | Lecture  | 00:32:23  
+    Video 1: Dynamic Programming                                       | Video    | 00:07:03  
+    Video 2: Monte Carlo Methods                                       | Video    | 00:06:57  
+    Video 3: (error, ignore this line)                                 | Video    | 00:15:26  
+    Video 4: Temporal Difference Learning                              | Video    | 00:02:57  
+--------------------------------------------------------------------------------------------
